@@ -1,0 +1,124 @@
+// ========================================
+// UTILITIES
+// ========================================
+global proc string _getNodeFromElement(string $element)
+{    
+    string $node = `match "[^.]+" $element `;
+    return $node;
+}
+
+proc string _getAttrFromElement(string $element)
+{    
+    string $attr = `substitute "^[^.]*\\." $element ""`;
+    return $attr;
+}
+
+proc string _getElementAttr(string $element)
+{    
+    string $attr = match( "[^\[]+", $element );
+    return $attr;
+}
+
+global proc nsrigPoseInterpolator.createSettingUI(string $nodeAttrName)
+{
+    string $nodeName = _getNodeFromElement($nodeAttrName);
+    string $attrName = _getAttrFromElement($nodeAttrName);
+    string $widgetName = capitalizeString($attrName);
+    string $curParent = `setParent -q`;
+    
+    python("AEnsrigPoseInterpolatorTemplateImpl.createSettingWidget(\""+$nodeName+"\",\""+$attrName+"\",\""+$widgetName+"\",\""+$curParent+"\")");
+}
+
+global proc nsrigPoseInterpolator.connectSettingUI(string $nodeAttrName)
+{
+    string $nodeName = _getNodeFromElement($nodeAttrName);
+    string $attrName = _getAttrFromElement($nodeAttrName);
+    
+    python("AEnsrigPoseInterpolatorTemplateImpl.updateSettingWidget(\""+$nodeName+"\")");
+}
+
+proc nsrigPoseInterpolator.installSettingUI( string $nodeName )
+{
+    editorTemplate -bl "General Settings" -cl 0;
+    editorTemplate -callCustom "nsrigPoseInterpolator.createSettingUI" "nsrigPoseInterpolator.connectSettingUI" setting;
+    editorTemplate -el;
+}
+
+global proc nsrigPoseInterpolator.createPoseUI(string $nodeAttrName)
+{
+    string $nodeName = _getNodeFromElement($nodeAttrName);
+    string $attrName = _getAttrFromElement($nodeAttrName);
+    string $widgetName = capitalizeString($attrName);
+    string $curParent = `setParent -q`;
+    
+    python("AEnsrigPoseInterpolatorTemplateImpl.createPoseWidget(\""+$nodeName+"\",\""+$attrName+"\",\""+$widgetName+"\",\""+$curParent+"\")");
+}
+
+global proc nsrigPoseInterpolator.connectPoseUI(string $nodeAttrName)
+{
+    string $nodeName = _getNodeFromElement($nodeAttrName);
+    string $attrName = _getAttrFromElement($nodeAttrName);
+    
+    python("AEnsrigPoseInterpolatorTemplateImpl.updatePoseWidget(\""+$nodeName+"\")");
+}
+
+proc nsrigPoseInterpolator.installPoseUI( string $nodeName )
+{
+    editorTemplate -bl "Pose" -cl 0;
+    editorTemplate -callCustom "nsrigPoseInterpolator.createPoseUI" "nsrigPoseInterpolator.connectPoseUI" pose;
+    editorTemplate -el;
+}
+
+global proc AEnsrigPoseInterpolatorTemplate( string $nodeName )
+{
+    // Load python ui
+    python("from imp import reload");
+    python("import AEnsrigPoseInterpolatorTemplateImpl");
+    python("reload(AEnsrigPoseInterpolatorTemplateImpl)");
+
+    editorTemplate -beginScrollLayout;
+
+        // Install general settings UI
+        nsrigPoseInterpolator.installSettingUI $nodeName;
+
+        // Install pose list UI
+        nsrigPoseInterpolator.installPoseUI $nodeName;
+
+        editorTemplate -addControl "outputWeights";
+
+        editorTemplate -beginLayout "Debug Section" -collapse 1;
+
+            editorTemplate -addControl "displayGrid";
+            editorTemplate -addControl "displayPoseInfo";
+            editorTemplate -addControl "displayPoseName";
+            editorTemplate -addControl "debugPoseId";
+            editorTemplate -addControl "fontSize";
+            editorTemplate -addControl "heightField";
+        
+        editorTemplate -endLayout;
+
+        editorTemplate -beginLayout "Locator Attributes" -collapse 1;
+            AElocatorCommon $nodeName;
+        editorTemplate -endLayout;
+        
+        // AElocatorInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "envelope";
+    editorTemplate -suppress "interpSpace";
+    editorTemplate -suppress "positionType";
+    editorTemplate -suppress "smoothingScheme";
+    editorTemplate -suppress "iterations";
+    editorTemplate -suppress "maxInfluences";
+    editorTemplate -suppress "gridDivisions";
+    editorTemplate -suppress "driverMatrix";
+    editorTemplate -suppress "driverPosition";
+
+    editorTemplate -suppress "debugSection";
+    editorTemplate -suppress "outputValues";
+    editorTemplate -suppress "debugMesh";
+    editorTemplate -suppress "pose";
+}

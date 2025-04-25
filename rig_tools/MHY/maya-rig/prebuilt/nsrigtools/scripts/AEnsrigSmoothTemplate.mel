@@ -1,0 +1,47 @@
+global proc AEnsrigSmoothTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Add custom attributes
+        editorTemplate -addControl "envelope";
+        editorTemplate -addControl "uvSet";
+        editorTemplate -addControl "laplacianOrder";
+        editorTemplate -addControl "weightingScheme";
+        editorTemplate -addControl "smoothingDirection";
+        editorTemplate -addControl "smoothingIterations";
+        editorTemplate -addControl "smoothing";
+        editorTemplate -addControl "uSmoothing";
+        editorTemplate -addControl "vSmoothing";
+        editorTemplate -addControl "surfaceSmoothing";
+        editorTemplate -addControl "surfaceConstraint";
+        editorTemplate -addControl "displacement";
+        editorTemplate -addControl "normalOffset";
+        editorTemplate -addControl "pinBorderVertices";
+        editorTemplate -addControl "targetProjection";
+        editorTemplate -addControl "targetSubdivLevel";
+        editorTemplate -addControl "targetTangentFitting";
+        editorTemplate -addControl "targetBlending";
+
+    AEgeometryFilterInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "weightFunction";
+    editorTemplate -suppress "originalGeometry";
+    editorTemplate -suppress "input";
+    editorTemplate -suppress "referenceGeometry";
+    editorTemplate -suppress "targetGeometry";
+    editorTemplate -suppress "weights";
+    editorTemplate -suppress "smoothingWeights";
+    editorTemplate -suppress "uSmoothingWeights";
+    editorTemplate -suppress "vSmoothingWeights";
+    editorTemplate -suppress "surfaceSmoothingWeights";
+    editorTemplate -suppress "surfaceConstraintWeights";
+    editorTemplate -suppress "displacementWeights";
+    editorTemplate -suppress "normalOffsetWeights";
+    editorTemplate -suppress "targetProjectionWeights";
+    editorTemplate -suppress "targetTangentFittingWeights";
+    editorTemplate -suppress "targetBlendingWeights";
+}

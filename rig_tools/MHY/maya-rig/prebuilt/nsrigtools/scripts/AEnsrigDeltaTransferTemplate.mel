@@ -1,0 +1,28 @@
+global proc AEnsrigDeltaTransferTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Add custom attributes
+        editorTemplate -addControl "sourceUVSet";
+        editorTemplate -addControl "targetUVSet";
+        editorTemplate -addControl "bindSpace";
+        editorTemplate -addControl "bindDistance";
+        editorTemplate -addControl "subdivLevel";
+        editorTemplate -addControl "deformationTransfer";
+        editorTemplate -addControl "dfxSmoothness";
+        editorTemplate -addControl "dfxIdentity";
+        editorTemplate -addControl "dfxFixedVertexTolerance";
+
+    // include/call base class/node attributes
+    AEdependNodeTemplate $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "sourceGeometry";
+    editorTemplate -suppress "targetGeometry";
+    editorTemplate -suppress "sourceDataGroup";
+    editorTemplate -suppress "outputDataGroup";
+    editorTemplate -suppress "dfxRegularization";
+}

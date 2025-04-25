@@ -1,0 +1,13 @@
+global proc AEnsrigBlendValuesByWeightTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Attrs for general settings
+        editorTemplate -addControl "pose";
+
+        // Attrs for outputs
+        editorTemplate -addControl "outputValues";
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+}

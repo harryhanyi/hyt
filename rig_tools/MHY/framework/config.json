@@ -1,0 +1,16 @@
+{
+  "version_number": "1.1.1",
+  "server_url": "",
+  "server_config": "server_config.json",
+  "server_update": "mhy_v",
+  "update_ext": ".zip",
+  "last_update": "",
+  "download_file": "mhy",
+  "runner_name": "mhy_pipeline.exe",
+  "updater_name": "mhy_updater.exe",
+  "base_folder": "MHY",
+  "update_interval": 60,
+  "aws_access": "AKIAYA47GRI5IK6LPJN5",
+  "aws_secret": "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",
+  "aws_bucket": "mhy-pipeline"
+}

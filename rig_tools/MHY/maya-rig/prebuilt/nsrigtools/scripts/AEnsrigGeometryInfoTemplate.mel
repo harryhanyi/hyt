@@ -1,0 +1,66 @@
+global proc AEnsrigGeometryInfoTemplate( string $nodeName )
+{
+    
+    editorTemplate -beginScrollLayout;
+    
+        editorTemplate -beginLayout "General settings" -collapse 0;
+            AElocatorCommon $nodeName;
+
+            // Add custom attributes
+            editorTemplate -addControl "uvSet";
+            editorTemplate -addControl "referenceSpace";
+            editorTemplate -addControl "measure";
+            editorTemplate -addControl "metricMultRange";
+            editorTemplate -addControl "metricRatioRange";
+            editorTemplate -addControl "deltaComponent";
+            editorTemplate -addControl "maxDeltaDistance";
+            editorTemplate -addControl "maxDeltaWeight";
+            editorTemplate -addControl "areaWeighted";
+            editorTemplate -addControl "tensionSmoothing";
+            editorTemplate -addControl "tensionMult";
+            editorTemplate -addControl "compressionMult";
+            editorTemplate -addControl "stretchMult";
+            editorTemplate -addControl "shearMult";
+            editorTemplate -addControl "curvatureSmoothing";
+            editorTemplate -addControl "curvatureMult";
+            editorTemplate -addControl "posCurvatureMult";
+            editorTemplate -addControl "negCurvatureMult";
+            editorTemplate -addControl "fontSize";
+            editorTemplate -addControl "displayMetricInfo";
+            editorTemplate -addControl "displayDeltaFlow";
+
+            AEaddRampControl ($nodeName+".colorRamp");
+            AEaddRampControl ($nodeName+".minRatioRemap");
+            AEaddRampControl ($nodeName+".maxRatioRemap");
+
+        editorTemplate -endLayout;
+
+        editorTemplate -beginLayout "Output Metric" -collapse 0;
+            editorTemplate -addControl "metric";
+            editorTemplate -addControl "metricRatio";
+        editorTemplate -endLayout;
+        
+        AElocatorInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "referenceGeometry";
+    editorTemplate -suppress "inputGeometry";
+    editorTemplate -suppress "metricSection";
+    editorTemplate -suppress "deltaSection";
+    editorTemplate -suppress "curvatureSection";
+    editorTemplate -suppress "tensionSection";
+    editorTemplate -suppress "fluxSection";
+    editorTemplate -suppress "fluxSmoothing";
+    editorTemplate -suppress "fluxMult";
+    editorTemplate -suppress "inFluxMult";
+    editorTemplate -suppress "outFluxMult";
+    editorTemplate -suppress "debugSection";
+    editorTemplate -suppress "outMetric";
+    editorTemplate -suppress "outDelta";
+    editorTemplate -suppress "outCurvature";
+    editorTemplate -suppress "outTension";
+    editorTemplate -suppress "outFlux";
+}

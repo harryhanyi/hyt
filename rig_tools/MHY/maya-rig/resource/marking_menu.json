@@ -1,0 +1,14 @@
+[
+    {
+        "menu_name": "mhy_marker_marking_menu",
+        "item_command": "import mhy.maya.rig.marking_menu as mm; mm.create_marker_menu_items({NODE});"
+    },
+    {
+        "menu_name": "mhy_rig_marking_menu",
+        "item_command": "import mhy.maya.rig.marking_menu as mm; action_items=mm.create_rig_menu_items({NODE});"
+    },
+    {
+        "menu_name": "mhy_picker_marking_menu",
+        "item_command": "import mhy.maya.animtools.picker_manager.ui.marking_menu as picker_mm; action_items=picker_mm.create_picker_menu_items({NODE});"
+    }
+]

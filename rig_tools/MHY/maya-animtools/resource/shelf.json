@@ -1,0 +1,24 @@
+{
+    "MHY": [
+        {
+            "action": "PickerManager",
+            "imageOverlayLabel": "Picker"
+        },
+        {
+            "action": "AnimLib",
+            "imageOverlayLabel": "AnimLib(Beta)"
+        },
+        {
+            "action": "Retargeter",
+            "imageOverlayLabel": "RT"
+        },
+        {
+            "action": "MHFaceAnimImporter",
+            "imageOverlayLabel": "FAnimIn"
+        },
+        {
+            "action": "MHBodyAnimImporter",
+            "imageOverlayLabel": "BAnimIn"
+        }
+    ]
+}

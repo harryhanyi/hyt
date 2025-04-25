@@ -1,0 +1,33 @@
+{
+    "MHY": [
+        {
+            "action": "PoseEditor",
+            "imageOverlayLabel": "PoseE",
+            "children": [
+                {
+                    "action": "PoseCleanUp"
+                }
+            ]
+        },
+        {
+            "action": "DeformerDecompose",
+            "imageOverlayLabel": "DD"
+        },
+        {
+            "action": "RigDataExporter",
+            "imageOverlayLabel": "Data"
+        },
+        {
+            "action": "Protostar",
+            "imageOverlayLabel": "PS"
+        },
+        {
+            "action": "SimpleFaceRig",
+            "imageOverlayLabel": "SFRig"
+        },
+        {
+            "action": "BatchRenamer",
+            "imageOverlayLabel": "Rename"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<g>
+	<circle cx="8" cy="20" r="2"/>
+	<circle cx="24" cy="20" r="2"/>
+	<rect x="1.379" y="4.5" transform="matrix(0.7071 0.7071 -0.7071 0.7071 4.9142 -0.864)" width="4.243" height="2"/>
+	<rect x="27.5" y="3.379" transform="matrix(0.7071 0.7071 -0.7071 0.7071 12.2365 -18.5416)" width="2" height="4.243"/>
+	<path d="M21,6H11C7.423,6,6.158,8.449,6.071,8.628L2,18.808V23c0,0,0,1,0,3s2,2,2,2h2c2,0,2-2,2-2h16c0,2,2,2,2,2h2c2,0,2-2,2-2v-3   v-4.192L25.895,8.553C25.843,8.449,24.577,6,21,6z M7.888,9.46C7.92,9.401,8.702,8,11,8h10c2.274,0,3.063,1.372,3.071,1.372v0   L25.923,14H6.074L7.888,9.46z M20,24h-8v-2h8V24z M22,24v-4H10v4H8H5.012C4.55,23.988,4,23.806,4,23v-3.808L5.275,16h21.447   L28,19.192V23c0,0.803-0.547,0.987-1.008,1H24H22z"/>
+	<rect x="8.197" y="1.5" transform="matrix(0.5547 0.8321 -0.8321 0.5547 6.5331 -7.2073)" width="3.606" height="2"/>
+	<rect x="21" y="0.697" transform="matrix(0.8321 0.5547 -0.5547 0.8321 5.0816 -11.7835)" width="2" height="3.606"/>
+</g>
+</svg>

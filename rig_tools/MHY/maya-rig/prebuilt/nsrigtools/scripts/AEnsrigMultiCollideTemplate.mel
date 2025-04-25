@@ -1,0 +1,38 @@
+global proc AEnsrigMultiCollideTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Add custom attributes
+        editorTemplate -addControl "envelope";
+        editorTemplate -addControl "iterations";
+        editorTemplate -addControl "smoothing";
+        editorTemplate -addControl "surfaceSmoothing";
+        editorTemplate -addControl "edgeLengthPreservation";
+        editorTemplate -addControl "bendingResistance";
+        editorTemplate -addControl "volumePreservation";
+        editorTemplate -addControl "bulge";
+        editorTemplate -addControl "bulgeDistance";
+        editorTemplate -addControl "separationDistance";
+        editorTemplate -addControl "maxPenetrationDepth";
+        editorTemplate -addControl "projectionDirection";
+
+        AEaddRampControl ($nodeName+".bulgeShape");
+
+        editorTemplate -addControl "config";
+        editorTemplate -addControl "collider";
+
+    AEgeometryFilterInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "input";
+    editorTemplate -suppress "weightFunction";
+    editorTemplate -suppress "originalGeometry";
+    editorTemplate -suppress "referenceGeometry";
+    editorTemplate -suppress "guideMesh";
+    editorTemplate -suppress "weightList";
+    editorTemplate -suppress "userWeightList";
+    editorTemplate -suppress "map64BitIndices";
+}

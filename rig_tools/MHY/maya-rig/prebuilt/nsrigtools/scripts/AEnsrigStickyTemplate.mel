@@ -1,0 +1,36 @@
+global proc AEnsrigStickyTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Add custom attributes
+        editorTemplate -addControl "envelope";
+        editorTemplate -addControl "mode";
+        editorTemplate -addControl "attach";
+        editorTemplate -addControl "attachFalloff";
+        editorTemplate -addControl "attachThreshold";
+        editorTemplate -addControl "detachFalloff";
+        editorTemplate -addControl "smoothingIterations";
+        editorTemplate -addControl "resetFrame";
+        editorTemplate -addControl "detachFrames";
+        editorTemplate -addControl "time";
+
+        AEaddRampControl ($nodeName+".attachShape");
+        AEaddRampControl ($nodeName+".detachDelay");
+
+    AEgeometryFilterInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "input";
+    editorTemplate -suppress "weightFunction";
+    editorTemplate -suppress "originalGeometry";
+    editorTemplate -suppress "map64BitIndices";
+    editorTemplate -suppress "referenceGeometry";
+    editorTemplate -suppress "weights";
+    editorTemplate -suppress "smoothingWeights";
+    editorTemplate -suppress "attachThresholdWeights";
+    editorTemplate -suppress "stickyRegionAWeights";
+    editorTemplate -suppress "stickyRegionBWeights";
+}

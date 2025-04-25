@@ -1,0 +1,20 @@
+global proc AEnsrigWeightShaderTemplate( string $nodeName )
+{
+    
+    editorTemplate -beginScrollLayout;
+    
+    // Add custom attributes
+    AEaddRampControl ($nodeName+".colorRamp");
+        
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "inputWeights";
+    editorTemplate -suppress "outTransparency";
+    editorTemplate -suppress "outGlowColor";
+    editorTemplate -suppress "outMatteOpacity";
+    editorTemplate -suppress "enableHwShading";
+    editorTemplate -suppress "varyingParameters";
+    editorTemplate -suppress "uniformParameters";
+}

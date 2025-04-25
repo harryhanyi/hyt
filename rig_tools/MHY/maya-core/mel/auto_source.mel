@@ -1,0 +1,19 @@
+global proc int has_mhy_marking_menu(string $object)
+{
+    if ( $object == "" ) {
+        string $objects[] = `ls -sl`;
+        if ( size($objects) > 0 ) {
+            $object = $objects[0];
+        } else {
+            return 0;
+        }
+    }
+
+    string $attrs[] = `listAttr -ud $object`;
+    for ($i = 0; $i < size($attrs); $i++) {
+        if ( startsWith($attrs[$i], "nodezoo_marking_menu") ) {
+            return 1;
+        }
+    }
+	return 0;
+}

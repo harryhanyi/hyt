@@ -1,0 +1,34 @@
+global proc AEnsrigMultiIntersectorTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+    // Add custom attributes
+    editorTemplate -addControl "localPosition";
+    editorTemplate -addControl "localScale";
+    editorTemplate -addControl "intersectionColor";
+    editorTemplate -addControl "intersectionTransparency";
+    editorTemplate -addControl "randomizeColors";
+    editorTemplate -addControl "backfaceCulling";
+    editorTemplate -addControl "maxIntersectionDepth";
+    editorTemplate -addControl "intersectionSteps";
+    editorTemplate -addControl "maxPosCollisionDepth";
+    editorTemplate -addControl "posCollisionSteps";
+    editorTemplate -addControl "maxNegCollisionDepth";
+    editorTemplate -addControl "negCollisionSteps";
+    editorTemplate -addControl "weightSmoothingIterations";
+
+    editorTemplate -addControl "collider";
+
+    AElocatorInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "inputGeometry";
+    editorTemplate -suppress "outIntersectedFaces";
+    editorTemplate -suppress "outIntersectionWeightList";
+    editorTemplate -suppress "outCollidedFaces";
+    editorTemplate -suppress "outPosCollisionWeightList";
+    editorTemplate -suppress "outNegCollisionWeightList";
+}

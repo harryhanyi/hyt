@@ -1,0 +1,80 @@
+// ========================================
+// UTILITIES
+// ========================================
+global proc string _getNodeFromElement(string $element)
+{    
+    string $node = `match "[^.]+" $element `;
+    return $node;
+}
+
+proc string _getAttrFromElement(string $element)
+{    
+    string $attr = `substitute "^[^.]*\\." $element ""`;
+    return $attr;
+}
+
+proc string _getElementAttr(string $element)
+{    
+    string $attr = match( "[^\[]+", $element );
+    return $attr;
+}
+
+// ========================================
+// IMPLEMENTATION
+// ========================================
+global proc nsrigProximityMap.createTargetUI(string $nodeAttrName)
+{
+    string $nodeName = _getNodeFromElement($nodeAttrName);
+    string $attrName = _getAttrFromElement($nodeAttrName);
+    string $widgetName = capitalizeString($attrName);
+    string $curParent = `setParent -q`;
+    
+    python("AEnsrigProximityMapTemplateImpl.createTargetWidget(\""+$nodeName+"\",\""+$attrName+"\",\""+$widgetName+"\",\""+$curParent+"\")");
+}
+
+global proc nsrigProximityMap.connectTargetUI(string $nodeAttrName)
+{
+    string $nodeName = _getNodeFromElement($nodeAttrName);
+    string $attrName = _getAttrFromElement($nodeAttrName);
+    
+    python("AEnsrigProximityMapTemplateImpl.updateTargetWidget(\""+$nodeName+"\")");
+}
+
+proc nsrigProximityMap.installTargetUI( string $nodeName )
+{
+    editorTemplate -bl "Target" -cl 0;
+    editorTemplate -callCustom "nsrigProximityMap.createTargetUI" "nsrigProximityMap.connectTargetUI" target;
+    editorTemplate -el;
+}
+
+global proc AEnsrigProximityMapTemplate( string $nodeName )
+{
+    // Load python ui
+    python("from imp import reload");
+    python("import AEnsrigProximityMapTemplateImpl");
+    python("reload(AEnsrigProximityMapTemplateImpl)");
+
+    editorTemplate -beginScrollLayout;
+    
+        // Add custom attributes
+        editorTemplate -addControl "radius";
+        editorTemplate -addControl "maxBlendedWeight";
+        editorTemplate -addControl "blendOperator";
+        editorTemplate -addControl "smoothingIterations";
+        AEaddRampControl ($nodeName+".radiusRemap");
+
+        // Install target list UI
+        nsrigProximityMap.installTargetUI $nodeName;
+
+    // include/call base class/node attributes
+    AEdependNodeTemplate $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "sourceGeometry";
+    editorTemplate -suppress "target";
+    editorTemplate -suppress "outTarget";
+    editorTemplate -suppress "outputWeights";
+}

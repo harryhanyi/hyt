@@ -1,0 +1,257 @@
+global int $gCoordConstraintIndices[0];
+global proc deleteElementUI(string $nodeName,	string $coordAttrName, int $index )
+//
+//	Description:
+//
+{
+	string $layoutName = $coordAttrName +"__layout"+"_"+string($index);
+	string $uName = $coordAttrName +"__u"+"_"+string($index);
+	string $vName = $coordAttrName +"__v"+"_"+string($index);
+	string $indexName = $coordAttrName +"__coordIndex"+"_"+string($index);
+	string $rotateName = $coordAttrName +"__coordRotateOrder"+"_"+string($index);
+	//string $typeName = $coordAttrName +"__coordType"+"_"+string($index);
+	if (`attrFieldSliderGrp -ex $uName` )
+	{
+		deleteUI $uName;
+	}
+	if (`attrFieldSliderGrp -ex $vName` )
+	{
+		deleteUI $vName;
+	}
+	if (`attrFieldSliderGrp -ex $indexName` )
+	{
+		deleteUI $indexName;
+	}
+	if (`attrEnumOptionMenuGrp -ex $rotateName` )
+	{
+		deleteUI $rotateName;
+	}
+	// if (`attrEnumOptionMenuGrp -ex $typeName` )
+	// {
+	// 	deleteUI $typeName;
+	// }
+	if (`frameLayout -ex $layoutName`)
+	{
+		deleteUI $layoutName;
+	}
+}
+global proc deleteElementAttr(string $nodeName,	int $index )
+//
+//	Description:
+//
+{
+	if(hasIndex($nodeName+".coord", int($index)))
+	{
+		removeMultiInstance -b true ($nodeName+".coord"+"["+string($index)+"]");
+	}
+	// if(hasIndex($nodeName+".translate", int($index)))
+	// {
+	// 	removeMultiInstance -b true ($nodeName+".translate"+"["+string($index)+"]");
+	// }
+	// if(hasIndex($nodeName+".rotate", int($index)))
+	// {
+	// 	removeMultiInstance -b true ($nodeName+".rotate"+"["+string($index)+"]");
+	// }
+}
+global proc deleteElement(string $nodeName,	string $coordAttrName, int $index )
+//
+//	Description:
+//
+{
+	deleteElementAttr($nodeName, $index );
+	deleteElementUI($nodeName, $coordAttrName, $index );
+}
+global proc AEmakeConstraintCoord(	string $nodeAttr )
+//
+//	Description:
+//
+{
+	string $buffer[];
+	tokenize($nodeAttr, ".", $buffer);
+	string $nodeName = $buffer[0];
+	string $attr = $buffer[ size($buffer) - 1];
+	tokenize($attr, "[]", $buffer);
+	string $coordAttrName = $buffer[0];
+	string $index = $buffer[1];
+	
+	string $layoutName = $coordAttrName +"__layout"+"_"+string($index);
+	string $uName = $coordAttrName +"__u"+"_"+string($index);
+	string $vName = $coordAttrName +"__v"+"_"+string($index);
+	string $indexName = $coordAttrName +"__coordIndex"+"_"+string($index);
+	string $rotateName = $coordAttrName +"__coordRotateOrder"+"_"+string($index);
+	setUITemplate -pst attributeEditorTemplate;
+ 	frameLayout -label $attr -labelAlign top -collapsable true -collapse false $layoutName;
+	attrEnumOptionMenuGrp -label rotateOrder -attribute ($nodeAttr+".rotateOrder")
+	-ei 0 "xyz"
+	-ei 1 "yzx"
+	-ei 2 "zxy"
+	-ei 3 "xzy"
+	-ei 4 "yxz"
+	-ei 5 "zyx"
+	-annotation "rotate order" $rotateName;
+	// string $typeName = $coordAttrName +"__coordType"+"_"+string($index);
+	// attrEnumOptionMenuGrp -label constraintType -attribute ($nodeAttr+".coordType")
+	// 	-ei 0 "vertex"
+	// 	-ei 1 "uv"
+	// 	-annotation "constraint type" $typeName;
+	attrFieldSliderGrp -label u -sliderMinValue 0.0 -sliderMaxValue 1.0 -attribute ($nodeAttr+".u")
+		-annotation "u" $uName;
+	attrFieldSliderGrp -label v -sliderMinValue 0.0 -sliderMaxValue 1.0 -attribute ($nodeAttr+".v")
+		-annotation "v" $vName;
+	attrFieldSliderGrp  -label index -attribute ($nodeAttr + ".coordIndex") $indexName;
+	symbolButton -image "smallTrash.png" -command ("deleteElement "+$nodeName+" "+$coordAttrName+" "+$index);
+	setParent ..;
+	frameLayout -edit $layoutName
+	;
+
+	setUITemplate -ppt;
+}
+
+global proc AEmakeConstraintCoordControlInteractiveNew_doIt(string $nodeAttr)
+{
+	AEmakeConstraintCoord($nodeAttr);
+}
+
+global proc AEmakeConstraintCoordControlInteractiveNew (string $nodeAttr)
+{
+	AEmakeConstraintCoordControlInteractiveNew_doIt( $nodeAttr );
+}
+
+global proc AEmakeAddButtonInteractiveNew_doIt(string $nodeAttr)
+{
+	setUITemplate -pst attributeEditorTemplate;
+	string $buffer[];
+	tokenize($nodeAttr, ".", $buffer);
+	string $attr = $buffer[ size($buffer) - 1];
+	string $coordAttrName = $attr;
+	string $nodeName = $buffer[0];
+	button -label "Add New Item" -command ("addNewConstraintCoord "+$nodeName+" "+$coordAttrName);
+	setUITemplate -ppt;	
+}
+
+global proc AEmakeAddButtonInteractiveNew (string $nodeAttr)
+{
+	AEmakeAddButtonInteractiveNew_doIt( $nodeAttr );
+}
+
+global proc AEmakeAddButtonInteractiveReplace (string $nodeAttr)
+{
+}
+
+global proc AEmakeConstraintCoordControlInteractiveReplace_doIt(string $nodeAttr)
+{
+	global int $gCoordConstraintIndices[0];
+	string $buffer[];
+	tokenize($nodeAttr, ".", $buffer);
+	string $attr = $buffer[ size($buffer) - 1];
+	string $nodeName = $buffer[0];
+	
+	tokenize($attr, "[]", $buffer);
+	string $coordAttrName = $buffer[0];
+	string $index = $buffer[1];
+	
+	string $fullCoordAttrName = $nodeName +"."+ $coordAttrName;
+	$indices = `getAttr -multiIndices $fullCoordAttrName`;
+	$changed = (size($gCoordConstraintIndices)!=size($indices));
+	
+	if (!$changed)
+	{
+		$changed = size(intArrayRemove($gCoordConstraintIndices, $indices))!=0;
+	}
+	if($changed)
+	{
+		for($index in $gCoordConstraintIndices)
+		{
+			deleteElementUI($nodeName, $coordAttrName, $index);
+		}
+		for($index in $indices)
+		{
+			string $nodeAttr = $nodeName +"."+ $coordAttrName+"["+$index+"]";
+			AEmakeConstraintCoord($nodeAttr);
+		}
+		$gCoordConstraintIndices = $indices;
+	}
+}
+
+global proc AEmakeConstraintCoordControlInteractiveReplace (string $nodeAttr)
+{
+	AEmakeConstraintCoordControlInteractiveReplace_doIt($nodeAttr);
+}
+
+global proc AEaddConstraintCoordControl( string $coordAttrName)
+{
+	AEaddConstraintCoordControl_doIt( $coordAttrName);
+}
+
+global proc AEaddConstraintCoordControl_doIt( string $coordAttrName )
+//  
+//  Description: 
+// 
+{
+	editorTemplate -callCustom 	
+						"AEmakeConstraintCoordControlInteractiveNew"
+						"AEmakeConstraintCoordControlInteractiveReplace" $coordAttrName;
+}
+global proc int getFreeIndex( string $attrName )
+{
+	int $indices[] = `getAttr -multiIndices $attrName`;
+	$freeIndex = 0;
+	for ($index in $indices)
+	{
+		if ($index !=  $freeIndex)
+		{
+			return $freeIndex;
+		}
+		$freeIndex += 1;
+	}
+	return $freeIndex;
+}
+
+global proc int hasIndex(string $attrName, int $index)
+{
+	$indices = `getAttr -multiIndices $attrName`;
+    return intArrayContains($index, $indices);
+};
+
+global proc addNewConstraintCoord( string $nodeName, string $attrName )
+//  
+//  Description: 
+// 
+{
+	$index = getFreeIndex($nodeName+".coord");
+	getAttr ($nodeName+".coord["+$index+"].uv");
+	getAttr ($nodeName+".translate["+$index+"]");
+	getAttr ($nodeName+".rotate["+$index+"]");
+	setGlobalView "";
+}
+global proc AEaddConstraintCoordArrayControl( string $nodeName, string $coordAttrName )
+//  
+//  Description: 
+// 
+{
+	global int $gCoordConstraintIndices[0];
+	//editorTemplate -beginLayout "Coord" -collapse false;
+	string $coordTitle = "Coord";
+	editorTemplate -beginLayout $coordTitle -collapse false;
+	editorTemplate -beginScrollLayout;
+	editorTemplate -callCustom 
+						"AEmakeAddButtonInteractiveNew"
+						"AEmakeAddButtonInteractiveReplace" $coordAttrName;
+	int $indices[] = `getAttr -multiIndices ($nodeName+"."+$coordAttrName)`;
+	for ($index in $indices)
+	{
+		AEaddConstraintCoordControl($coordAttrName+"["+$index+"]");
+	}
+	$gCoordConstraintIndices = $indices;
+	editorTemplate -endScrollLayout;
+	editorTemplate -endLayout;
+}
+global proc AElsGeometryInfoTemplate ( string $nodeName )
+{
+	if( !exists ("AEparticleAddDynamicRenderAttr") ){
+		source AEparticleLayout;
+	}
+	AEaddConstraintCoordArrayControl($nodeName, "coord");
+	editorTemplate -addSeparator;
+	editorTemplate -addExtraControls;
+}

@@ -1,0 +1,24 @@
+global proc AEnsrigSwingTwistComboTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Attrs for general settings
+        editorTemplate -addControl "globalTwist";
+        editorTemplate -addControl "globalTwistPos";
+        editorTemplate -addControl "globalTwistNeg";
+        editorTemplate -addControl "pose";
+
+        // Attrs for outputs
+        editorTemplate -addControl "outputGlobalTwistPosWeight";
+        editorTemplate -addControl "outputGlobalTwistNegWeight";
+        editorTemplate -addControl "outputPoseSwingWeights";
+        editorTemplate -addControl "outputPoseTwistPosWeights";
+        editorTemplate -addControl "outputPoseTwistNegWeights";
+
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    // editorTemplate -suppress "input";
+}

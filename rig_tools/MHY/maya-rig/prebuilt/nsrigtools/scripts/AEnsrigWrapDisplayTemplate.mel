@@ -1,0 +1,23 @@
+global proc AEnsrigWrapDisplayTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Attrs for general settings
+        editorTemplate -addControl "signedDistanceField";
+        editorTemplate -addControl "tetMesh";
+        editorTemplate -addControl "tetBoundaryMesh";
+        
+        editorTemplate -addControl "outVolume";
+
+        AElocatorInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "localPosition";
+    editorTemplate -suppress "localScale";
+    editorTemplate -suppress "inputGeometry";
+    editorTemplate -suppress "outTetMesh";
+    editorTemplate -suppress "outTetBoundaryMesh";
+}

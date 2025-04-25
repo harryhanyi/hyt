@@ -1,0 +1,25 @@
+global proc AEnsrigSelfIntersectorTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+    // Add custom attributes
+    editorTemplate -addControl "localPosition";
+    editorTemplate -addControl "localScale";
+    editorTemplate -addControl "intersectionColor";
+    editorTemplate -addControl "intersectionTransparency";
+    editorTemplate -addControl "fontSize";
+    editorTemplate -addControl "backFaceCulling";
+    editorTemplate -addControl "intersectionPartitioning";
+    editorTemplate -addControl "partitioningThreshold";
+
+    AElocatorInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "inputGeometry";
+    editorTemplate -suppress "outputWeights";
+    editorTemplate -suppress "intersectedFaces";
+    editorTemplate -suppress "partition";
+}

@@ -1,0 +1,14 @@
+import subprocess
+import pathlib
+cwd = str(pathlib.Path(__file__).parent.absolute()) + "/"
+
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--maya', nargs = 1, type = int, help = 'maya version')
+args = parser.parse_args()
+
+_version = args.maya[0] if args.maya else 2020
+print("maya version:", _version)
+
+output = subprocess.run([cwd+'run.rawbat', str(_version)], capture_output=True, check=True)
+print(output.stdout.decode('utf-8', 'ignore'))

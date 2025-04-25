@@ -1,0 +1,83 @@
+{
+    "solvers": [
+        {
+            "name": "test_script_02",
+            "drivers": [
+                "CTRL_C_mouth",
+                "CTRL_C_jaw"
+            ],
+            "drivens": [
+                {
+                    "blendshape": "head_lod0_mesh_blendShapes",
+                    "target": "head_lod0_mesh1"
+                }
+            ], 
+            "poses": [
+                {
+                    "name": "01",
+                    "driver_trans": [
+                        {
+                            "name": "CTRL_C_mouth",
+                            "trans_x": 0,
+                            "trans_y": -1
+                        }, 
+                        {
+                            "name": "CTRL_C_jaw",
+                            "trans_x": 0,
+                            "trans_y": 0
+                        }
+                    ],
+                    "driven_values": [
+                        {
+                            "blendshape": "head_lod0_mesh_blendShapes",
+                            "target": "head_lod0_mesh1",
+                            "weight": 0
+                        }
+                    ]
+                }, {
+                    "name": "02",
+                    "driver_trans": [
+                        {
+                            "name": "CTRL_C_mouth",
+                            "trans_x": 0,
+                            "trans_y": 0
+                        }, 
+                        {
+                            "name": "CTRL_C_jaw",
+                            "trans_x": 0,
+                            "trans_y": 1
+                        }
+                    ],
+                    "driven_values": [
+                        {
+                            "blendshape": "head_lod0_mesh_blendShapes",
+                            "target": "head_lod0_mesh1",
+                            "weight": 0
+                        }
+                    ]
+                }, {
+                    "name": "03",
+                    "driver_trans": [
+                        {
+                            "name": "CTRL_C_mouth",
+                            "trans_x": 0,
+                            "trans_y": -1
+                        }, 
+                        {
+                            "name": "CTRL_C_jaw",
+                            "trans_x": 0,
+                            "trans_y": 1
+                        }
+                    ],
+                    "driven_values": [
+                        {
+                            "blendshape": "head_lod0_mesh_blendShapes",
+                            "target": "head_lod0_mesh1",
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,342 @@
+2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] [12/12/2022 4:12:27 AM]
+2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] OS Version Build : 22000
+2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 04:12:27; Information; LoadDebugOptions; 10456; 1] (375)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+2022-12-12 04:12:27; Information; GameBoxPlugIn.GameBox-AppService; 10456; 1] (380)ProductLine Value=NB, True
+2022-12-12 04:12:27; Information; GameBoxPlugIn.GameBox-AppService; 10456; 1] (380)Subbrand Value=ROG, True
+2022-12-12 04:12:27; Information; GameBoxPlugIn.GameBox-AppService; 10456; 1] (381)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
+2022-12-12 04:12:29; Critical; GameBoxPlugIn.GetCountryCode; 10456; 2] (1653)US
+2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] [12/12/2022 11:16:12 AM]
+2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] OS Version Build : 22000
+2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 11:16:28; Information; LoadDebugOptions; 7924; 5] (16026)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+2022-12-12 11:16:28; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (16058)ProductLine Value=NB, True
+2022-12-12 11:16:28; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (16058)Subbrand Value=ROG, True
+2022-12-12 11:16:28; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (16059)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
+2022-12-12 11:16:29; Critical; GameBoxPlugIn.GetCountryCode; 7924; 2] (16746)US
+2022-12-12 11:16:30; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (17414)ProductLine Value=NB, True
+2022-12-12 11:16:30; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (17414)Subbrand Value=ROG, True
+2022-12-12 11:16:30; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (17414)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
+2022-12-12 11:16:30; Critical; GameBoxPlugIn.GetCountryCode; 7924; 2] (17493)US
+2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] [12/12/2022 11:57:18 AM]
+2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] OS Version Build : 22000
+2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 11:57:19; Information; LoadDebugOptions; 10360; 1] (119)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] [12/12/2022 1:20:46 PM]
+2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] OS Version Build : 22000
+2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 13:20:46; Information; LoadDebugOptions; 16864; 1] (75)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+2022-12-12 13:20:46; Information; GameBoxPlugIn.GameBox-AppService; 16864; 1] (78)ProductLine Value=NB, True
+2022-12-12 13:20:46; Information; GameBoxPlugIn.GameBox-AppService; 16864; 1] (79)Subbrand Value=ROG, True
+2022-12-12 13:20:46; Information; GameBoxPlugIn.GameBox-AppService; 16864; 1] (79)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
+2022-12-12 13:20:49; Critical; GameBoxPlugIn.GetCountryCode; 16864; 7] (3283)US
+2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] [12/12/2022 2:01:50 PM]
+2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] OS Version Build : 22000
+2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 14:01:50; Information; LoadDebugOptions; 10636; 1] (34)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+2022-12-12 14:01:50; Information; GameBoxPlugIn.GameBox-AppService; 10636; 1] (35)ProductLine Value=NB, True
+2022-12-12 14:01:50; Information; GameBoxPlugIn.GameBox-AppService; 10636; 1] (35)Subbrand Value=ROG, True
+2022-12-12 14:01:50; Information; GameBoxPlugIn.GameBox-AppService; 10636; 1] (35)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
+2022-12-12 14:01:50; Critical; GameBoxPlugIn.GetCountryCode; 10636; 3] (491)US
+2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] [12/12/2022 2:51:55 PM]
+2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] OS Version Build : 22000
+2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 14:51:55; Information; LoadDebugOptions; 5104; 1] (53)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+2022-12-12 14:51:55; Information; GameBoxPlugIn.GameBox-AppService; 5104; 1] (55)ProductLine Value=NB, True
+2022-12-12 14:51:55; Information; GameBoxPlugIn.GameBox-AppService; 5104; 1] (55)Subbrand Value=ROG, True
+2022-12-12 14:51:55; Information; GameBoxPlugIn.GameBox-AppService; 5104; 1] (55)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
+2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] [12/12/2022 2:57:52 PM]
+2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] Gaming Center Version : 5.3.4.0
+2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] OS Version Build : 22000
+2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] ----------------------------------------------------------------------------------------------------
+2022-12-12 14:57:52; Information; LoadDebugOptions; 26576; 1] (39)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               62.92666244506836, 
+                                    -7.042574882507324
+                                ], 
+                                [
+                                    14.338066101074219, 
+                                    62.91085433959961, 
+                                    -5.454441070556641
+                                ], 
+                                [
+                                    15.25308895111084, 
+                                    63.0670051574707, 
+                                    -2.7926151752471924
+                                ], 
+                                [
+                                    15.138057708740234, 
+                                    63.11188888549805, 
+                                    0.8045529723167419
+                                ], 
+                                [
+                                    12.504616737365723, 
+                                    62.803436279296875, 
+                                    6.041195392608643
+                                ]
+                            ], 
+                            "name": "leg_03_L_CUTMESHShapeOrig", 
+                            "parent": "leg_03_L_CUTMESH", 
+                            "uvs": [
+                                [], 
+                                []
+                            ], 
+                            "polygon_vertices": [
+                                [
+                                    1, 
+                                    13, 
+                                    30, 
+                                    33
+                                ], 
+                                [
+                                    0, 
+                                    24, 
+                                    28, 
+                                    9
+                                ], 
+                                [
+                                    3, 
+                                    4, 
+                                    16, 
+                                    15
+                                ], 
+                                [
+                                    2, 
+                                    3, 
+                                    15, 
+                                    14
+                                ], 
+                                [
+                                    5, 
+                                    17, 
+                                    23, 
+                                    11
+                                ], 
+                                [
+                                    5, 
+                                    6, 
+                                    25, 
+                                    32
+                                ], 
+                                [
+                                    1, 
+                                    2, 
+                                    14, 
+                                    13
+                                ], 
+                                [
+                                    0, 
+                                    7, 
+                                    26, 
+                                    24
+                                ], 
+                                [
+                                    6, 
+                                    8, 
+                                    27, 
+                                    25
+                                ], 
+                                [
+                                    10, 
+                                    9, 
+                                    28, 
+                                    29
+                                ], 
+                                [
+                                    8, 
+                                    10, 
+                                    29, 
+                                    27
+                                ], 
+                                [
+                                    4, 
+                                    11, 
+                                    23, 
+                                    16
+                                ], 
+                                [
+                                    44, 
+                                    1, 
+                                    7, 
+                                    43
+                                ], 
+                                [
+                                    42, 
+                                    0, 
+                                    9, 
+                                    41
+                                ], 
+                                [
+                                    35, 
+                                    4, 
+                                    3, 
+                                    34
+                                ], 
+                                [
+                                    45, 
+                                    34, 
+                                    3, 
+                                    2
+                                ], 
+                                [
+                                    37, 
+                                    5, 
+                                    11, 
+                                    36
+                                ], 
+                                [
+                                    38, 
+                                    6, 
+                                    5, 
+                                    37
+                                ], 
+                                [
+                                    45, 
+                                    2, 
+                                    1, 
+                                    44
+                                ], 
+                                [
+                                    43, 
+                                    7, 
+                                    0, 
+                                    42
+                                ], 
+                                [
+                                    39, 
+                                    8, 
+                                    6, 
+                                    38
+                                ], 
+                                [
+                                    41, 
+                                    9, 
+                                    10, 
+                                    40
+                                ], 
+                                [
+                                    40, 
+                                    10, 
+                                    8, 
+                                    39
+                                ], 
+                                [
+                                    36, 
+                                    11, 
+                                    4, 
+                                    35
+                                ], 
+                                [
+                                    30, 
+                                    19, 
+                                    26, 
+                                    33
+                                ], 
+                                [
+                                    28, 
+                                    24, 
+                                    12, 
+                                    21
+                                ], 
+                                [
+                                    25, 
+                                    18, 
+                                    31, 
+                                    32
+                                ], 
+                                [
+                                    26, 
+                                    19, 
+                                    12, 
+                                    24
+                                ], 
+                                [
+                                    27, 
+                                    20, 
+                                    18, 
+                                    25
+                                ], 
+                                [
+                                    28, 
+                                    21, 
+                                    22, 
+                                    29
+                                ], 
+                                [
+                                    29, 
+                                    22, 
+                                    20, 
+                                    27
+                                ], 
+                                [
+                                    32, 
+                                    31, 
+                                    17, 
+                                    5
+                                ], 
+                                [
+                                    33, 
+                                    26, 
+                                    7, 
+                                    1
+                                ]
+                            ], 
+                            "assigned_uvs": [
+                                [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0, 
+                                    0
+                                ], 
+                                []
+                            ]
+                        }, 
+                        "type": "mesh", 
+                        "name": "leg_03_L_CUTMESHShapeOrig"
+                    }
+                }
+            }
+        }
+    ]
+}

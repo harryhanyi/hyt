@@ -1,0 +1,7 @@
+{
+    "ToggleMarkingMenu": {
+        "command": "PY:import mhy.maya.startup.marking_menu as mm;mm.toggle_marking_menu();",
+        "annotation": "Toggle MHY custom marking menus.",
+        "icon": "menuIconGraph.png"
+    }
+}

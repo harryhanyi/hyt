@@ -1,0 +1,23 @@
+@echo off
+pushd %~dp0
+set "INSTALL_PATH=%cd%"
+popd
+set "MAYA_VERSION=%1"
+set "FLAVOR=%2"
+if not defined COMPILER_VERSION (
+    set "COMPILER_VERSION=2019"
+)
+if "%1"=="" (
+   set "MAYA_VERSION=2018"
+)
+if "%2"=="" (
+   set "FLAVOR=Release"
+)
+echo Launch environments: MAYA_VERSION [%MAYA_VERSION%] FLAVOR [%FLAVOR%] COMPILER_VERSION [%COMPILER_VERSION%]
+
+set "MAYA_UI_LANGUAGE=en_US"
+rem hard coded path...
+set "MAYA_LOCATION=C:\Program Files\Autodesk\Maya%MAYA_VERSION%"
+
+"%MAYA_LOCATION%/bin/maya.exe" %MAYA_TEST_SCENE%
+popd

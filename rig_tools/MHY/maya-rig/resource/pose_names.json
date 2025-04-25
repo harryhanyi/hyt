@@ -1,0 +1,260 @@
+{
+    "BROW": {
+        "M": [
+            "CenterBrowUp_M",
+            "CenterBrowDown_M",
+            "BrowFwd_M",
+            "BrowCrunch_M"
+        ],
+        "L": [
+            "BrowInnerUp_L",
+            "BrowInnerDown_L",
+            "BrowInnerIn_L",
+            "BrowInnerOut_L",
+            "BrowMidUp_L",
+            "BrowMidDown_L",
+            "BrowMidIn_L",
+            "BrowMidOut_L",
+            "BrowOuterUp_L",
+            "BrowOuterDown_L",
+            "BrowOuterIn_L",
+            "BrowOuterOut_L"
+        ],
+        "R": [
+            "BrowInnerUp_R",
+            "BrowInnerDown_R",
+            "BrowInnerIn_R",
+            "BrowInnerOut_R",
+            "BrowMidUp_R",
+            "BrowMidDown_R",
+            "BrowMidIn_R",
+            "BrowMidOut_R",
+            "BrowOuterUp_R",
+            "BrowOuterDown_R",
+            "BrowOuterIn_R",
+            "BrowOuterOut_R"
+        ]
+    },
+    "EYELID": {
+        "UPPER": {
+            "L": [
+                "LidUpperUp_L",
+                "LidUpperDown_L",
+                "LidUpperIn_L",
+                "LidUpperOut_L",
+                "EyeTighten_L"
+            ],
+            "R": [
+                "LidUpperUp_R",
+                "LidUpperDown_R",
+                "LidUpperIn_R",
+                "LidUpperOut_R",
+                "EyeTighten_R"
+            ]
+        },
+        "LOWER": {
+            "L": [
+                "LidLowerUp_L",
+                "LidLowerDown_L",
+                "LidLowerIn_L",
+                "LidLowerOut_L",
+                "EyePuff_L"
+            ],
+            "R": [
+                "LidLowerUp_R",
+                "LidLowerDown_R",
+                "LidLowerIn_R",
+                "LidLowerOut_R",
+                "EyePuff_R"
+            ]
+        }
+    },
+    "SQUINT": {
+        "L": [
+            "SquintInnerUp_L",
+            "SquintInnerTighten_L",
+            "SquintOuterUp_L",
+            "CrowFeet_L"
+        ],
+        "R": [
+            "SquintInnerUp_R",
+            "SquintInnerTighten_R",
+            "SquintOuterUp_R",
+            "CrowFeet_R"
+        ]
+    },
+    "CHEEK": {
+        "M": [
+            "CheekPuff_M",
+            "CheekConcave_M"
+        ],
+        "L": [
+            "CheekUp_L",
+            "CheekDown_L",
+            "CheekFwd_L",
+            "CheekBack_L"
+        ],
+        "R": [
+            "CheekUp_R",
+            "CheekDown_R",
+            "CheekFwd_R",
+            "CheekBack_R"
+        ]
+    },
+    "NOSE": {
+        "L": [
+            "NoseScrunch_L",
+            "NoseSneer_L",
+            "NostrilWiden_L"
+        ],
+        "R": [
+            "NoseScrunch_R",
+            "NoseSneer_R",
+            "NostrilWiden_R"
+        ]
+    },
+    "JAW": [
+        "JawRollDown_M",
+        "JawClench_M",
+        "JawSideSR_M",
+        "JawSideSL_M"
+    ],
+    "MOUTH": {
+        "WHOLE": [
+            "MouthUp_M",
+            "MouthDown_M",
+            "MouthSideSR_M",
+            "MouthSideSL_M",
+            "MouthPuff_M",
+            "MouthFunnel_M",
+            "MouthPucker_M"
+        ],
+        "UPPER": {
+            "M": [
+                "MouthUpperAllOpen_M"
+            ],
+            "L": [
+                "MouthUpperUp_L",
+                "MouthUpperDown_L",
+                "MouthUpperSideSR_L",
+                "MouthUpperSideSL_L"
+            ],
+            "R": [
+                "MouthUpperUp_R",
+                "MouthUpperDown_R",
+                "MouthUpperSideSR_R",
+                "MouthUpperSideSL_R"
+            ]
+        },
+        "LOWER": {
+            "M": [
+                "MouthLowerAllOpen_M"
+            ],
+            "L": [
+                "MouthLowerUp_L",
+                "MouthLowerDown_L",
+                "MouthLowerSideSR_L",
+                "MouthLowerSideSL_L"
+            ],
+            "R": [
+                "MouthLowerUp_R",
+                "MouthLowerDown_R",
+                "MouthLowerSideSR_R",
+                "MouthLowerSideSL_R"
+            ]
+        }
+    },
+    "MOUTHCONNER": {
+        "L": [
+            "MouthCrnrUp_L",
+            "MouthCrnrDown_L",
+            "MouthCrnrIn_L",
+            "MouthCrnrBack_L"
+        ],
+        "R": [
+            "MouthCrnrUp_R",
+            "MouthCrnrDown_R",
+            "MouthCrnrIn_R",
+            "MouthCrnrBack_R"
+        ]
+    },
+    "LIPS": {
+        "CORNER": {
+            "L": [
+                "LipCrnrPinch_L",
+                "LipCrnrRelax_L"
+            ],
+            "R": [
+                "LipCrnrPinch_R",
+                "LipCrnrRelax_R"
+            ]
+        },
+        "UPPER": {
+            "WHOLE": [
+                "LipUpperFBack_M",
+                "LipUpperPress_M",
+                "LipUpperThicken_M"
+            ],
+            "M": [
+                "LipUpperUp_M",
+                "LipUpperDown_M",
+                "LipUpperIn_M",
+                "LipUpperOut_M",
+                "LipUpperFwd_M",
+                "LipUpperBack_M"
+            ],
+            "L": [
+                "LipUpperUp_L",
+                "LipUpperDown_L",
+                "LipUpperIn_L",
+                "LipUpperOut_L",
+                "LipUpperFwd_L",
+                "LipUpperBack_L"
+            ],
+            "R": [
+                "LipUpperUp_R",
+                "LipUpperDown_R",
+                "LipUpperIn_R",
+                "LipUpperOut_R",
+                "LipUpperFwd_R",
+                "LipUpperBack_R"
+            ]
+        },
+        "LOWER": {
+            "WHOLE": [
+                "LipLowerFBack_M",
+                "LipLowerPress_M",
+                "LipLowerThicken_M"
+            ],
+            "M": [
+                "LipLowerUp_M",
+                "LipLowerDown_M",
+                "LipLowerIn_M",
+                "LipLowerOut_M",
+                "LipLowerFwd_M",
+                "LipLowerBack_M"
+            ],
+            "L": [
+                "LipLowerUp_L",
+                "LipLowerDown_L",
+                "LipLowerIn_L",
+                "LipLowerOut_L",
+                "LipLowerFwd_L",
+                "LipLowerBack_L"
+            ],
+            "R": [
+                "LipLowerUp_R",
+                "LipLowerDown_R",
+                "LipLowerIn_R",
+                "LipLowerOut_R",
+                "LipLowerFwd_R",
+                "LipLowerBack_R"
+            ]
+        }
+    },
+    "CHIN": [
+        "ChinUp_M",
+        "ChinDown_M",
+        "ChinPucker_M"
+    ]
+}

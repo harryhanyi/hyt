@@ -1,0 +1,35 @@
+global proc AEnsrigSelfCollideTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Add custom attributes
+        editorTemplate -addControl "envelope";
+        editorTemplate -addControl "forwardIterations";
+        editorTemplate -addControl "reverseSteps";
+        editorTemplate -addControl "postIterations";
+        editorTemplate -addControl "smoothing";
+        editorTemplate -addControl "surfaceSmoothing";
+        editorTemplate -addControl "bendingResistance";
+        editorTemplate -addControl "tangentSpreading";
+        editorTemplate -addControl "bulge";
+        editorTemplate -addControl "bulgeDistance";
+        editorTemplate -addControl "separationDistance";
+        editorTemplate -addControl "maxPenetrationDepth";
+
+        AEaddRampControl ($nodeName+".bulgeShape");
+
+    AEgeometryFilterInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "input";
+    editorTemplate -suppress "weightFunction";
+    editorTemplate -suppress "originalGeometry";
+    editorTemplate -suppress "referenceGeometry";
+    editorTemplate -suppress "map64BitIndices";
+    editorTemplate -suppress "weights";
+    editorTemplate -suppress "smoothingWeights";
+    editorTemplate -suppress "bulgeWeights";
+}

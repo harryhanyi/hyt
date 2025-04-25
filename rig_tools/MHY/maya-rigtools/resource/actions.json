@@ -1,0 +1,47 @@
+{
+    "DeformerDecompose": {
+        "command": "PY:import mhy.maya.rigtools.deformer_decompose as dd; dd.run()",
+        "icon": "editor.png",
+        "tag": ["rig", "ui"]
+    }, 
+    "PoseEditor": {
+        "command": "PY:import mhy.maya.rigtools.pose_editor as pose_editor;pose_editor.run()",
+        "icon": "chimpamzee.png",
+        "tag": ["rig", "face","ui"],
+        "help_link": "https://iwiki.woa.com/pages/viewpage.action?pageId=761500592"
+    },
+    "PoseCleanUp": {
+        "command": "PY:import mhy.maya.rigtools.pose_editor.api.pose_controller as pc ;pc.do_clean_up()",
+        "tag": ["rig", "face"]
+    },
+    "RigDataExporter": {
+        "command": "PY:import mhy.maya.rigtools.rig_data_exporter.view as rd; rd.launch()",
+        "annotation": "Open MHY rig data exporter.",
+        "icon": "export.png",
+        "tag": ["rig", "ui"]
+    },
+    "PoseWrangler": {
+        "command": "PY:from mhy.maya.rigtools.pose_wrangler.poseWranglerUI import showUI;showUI()",
+        "annotation": "Open Pose Wrangler UI.",
+        "icon": "poseEditor.png",
+        "tag": ["rig", "ui"]
+    },
+    "Protostar": {
+        "command": "PY:from mhy.protostar.ui.main import Window;Window.launch()",
+        "annotation": "Open Protostar UI.",
+        "icon": "protostar.png",
+        "tag": ["rig", "ui"]
+    },
+    "SimpleFaceRig": {
+        "command": "PY:import mhy.maya.rigtools.simple_face_rig.main as main;main.simplify()",
+        "annotation": "Simplify facial rig.",
+        "icon": "simple_face_rig.png",
+        "tag": ["rig", "face"]
+    },
+    "BatchRenamer": {
+        "command": "PY:from mhy.maya.rigtools.batch_renamer.batchRenamer import batchRenamerUi as batchRenamer;batchRenamer.display()",
+        "annotation": "Batch Rename UI.",
+        "icon": "batch_renamer.png",
+        "tag": ["rig", "ui"]
+    }
+}

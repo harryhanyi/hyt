@@ -1,0 +1,1 @@
+Qt resource including icons and stylesheets

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="2575378627_Capa_1_grid" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<g>
+	<path d="M24,20V0H11C7.04,0,6,3.27,6,5v15H4v2h22v-2H24z M16,20h-2v-2h2V20z M22,20h-4v-4h-6v4H8V5.01C8.01,4.5,8.18,2,11,2h11V20z   "/>
+	<rect x="10" y="4" width="2" height="2"/>
+	<rect x="14" y="4" width="2" height="2"/>
+	<rect x="18" y="4" width="2" height="2"/>
+	<rect x="18" y="8" width="2" height="2"/>
+	<rect x="14" y="8" width="2" height="2"/>
+	<rect x="10" y="8" width="2" height="2"/>
+	<rect x="10" y="12" width="2" height="2"/>
+	<rect x="14" y="12" width="2" height="2"/>
+	<rect x="18" y="12" width="2" height="2"/>
+</g>
+<path d="M12,24v8h6v-8H12z M16,30h-2v-4h2V30z"/>
+<path d="M4,24v8h6v-8H4z M8,30H6v-4h2V30z"/>
+<path d="M20,24v8h6v-8H20z M24,30h-2v-4h2V30z"/>
+</svg>

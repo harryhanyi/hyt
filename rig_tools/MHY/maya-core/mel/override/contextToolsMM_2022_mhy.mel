@@ -1,0 +1,71 @@
+// ===========================================================================
+// Copyright 2021 Autodesk, Inc. All rights reserved.
+//
+// Use of this software is subject to the terms of the Autodesk license
+// agreement provided at the time of installation or download, or which
+// otherwise accompanies this software in either electronic or hard copy form.
+// ===========================================================================
+//
+//  Procedure Name:
+//      contextToolsMM
+//
+//  Description:
+//      This procedure creates the context sensitive popup/marking menu
+//      for tools.
+//
+//  Input Arguments:
+//      None
+//
+//  Return Value:
+//      None.
+//
+global proc contextToolsMM(string $parent)
+{
+	if (`popupMenu -query -exists $parent`)
+	{
+		popupMenu -edit -deleteAllItems $parent;
+
+		setParent -menu $parent;
+
+		string $selection[] = `ls -long -selection`;
+
+        // MHY modification
+        if( `getenv("MHY_MEL_OVERRIDE_PATH")` != "" ) {
+            dagObjectHit -mn $parent;
+            return;
+        }
+
+		// XGen brush MM
+		//
+		if( `contextXGenSwitchToolsMM($parent)` )
+		{
+			return;
+		}
+
+		// Poly MM
+		//
+		if( `contextPolyToolsMM($parent)` )
+		{
+			return;
+		}
+
+		// NURBS Curve MM
+		//
+		if( `contextNurbsCurveToolsMM($parent)` )
+		{
+			return;
+		}
+
+		//
+		// Either nothing is selected, or something is selected that doesn't
+		// have a specific poly or nurbs menu associated (eg a material or other depend node).
+		// In this case, default to poly tools
+		//
+		contextPolyToolsDefaultMM;
+
+		// allow user to define a proc with additional menu items
+		if (`exists contextPolyToolsDefaultUserMM`)
+			contextPolyToolsDefaultUserMM $parent;
+	}
+}
+

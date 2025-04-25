@@ -1,0 +1,43 @@
+global proc AEnsrigWrapTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+        // Attrs for general settings
+        editorTemplate -addControl "envelope";
+        editorTemplate -addControl "bindState";
+        editorTemplate -addControl "bindMode";
+        editorTemplate -addControl "bindSpace";
+        editorTemplate -addControl "wrapMode";
+        editorTemplate -addControl "bindDistance";
+        editorTemplate -addControl "bindOffset";
+        editorTemplate -addControl "overrideDeformation";
+        editorTemplate -addControl "setWorldPoints";
+
+        // Attrs for multi drivers
+        separator -style "in" -width 100;
+        editorTemplate -addControl "maxDrivers";
+        editorTemplate -addControl "falloff";
+        editorTemplate -addControl "falloffScale";
+        editorTemplate -addControl "smoothInfluences";
+
+        editorTemplate -addControl "bindUVSet";
+
+        AEaddRampControl ($nodeName+".falloffRamp");
+
+        editorTemplate -addControl "driver";
+
+    AEgeometryFilterInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "input";
+    editorTemplate -suppress "weightFunction";
+    editorTemplate -suppress "originalGeometry";
+    editorTemplate -suppress "weightList";
+    editorTemplate -suppress "userWeightList";
+    editorTemplate -suppress "map64BitIndices";
+    editorTemplate -suppress "bindGeometry";
+    editorTemplate -suppress "MULTI_DRIVER";
+}

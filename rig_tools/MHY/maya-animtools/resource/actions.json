@@ -1,0 +1,29 @@
+{
+    "PickerManager": {
+        "command": "PY:import mhy.maya.animtools.picker_manager.ui.main as main;main.launch()",
+        "icon": "picker.png",
+        "tag": ["anim", "ui"]
+    },
+    "AnimLib": {
+        "command": "PY:import mhy.maya.anim_lib.main as main;main.launch()",
+        "icon": "pizza.png",
+        "tag": ["anim", "ui"]
+    },
+    "Retargeter": {
+        "command": "PY:import mhy.maya.animtools.retargeter.retarget_view as main;main.AnimRetargeterWindow.launch()",
+        "icon": "animateSnapshot.png",
+        "tag": ["anim", "ui"]
+    },
+    "MHFaceAnimImporter": {
+        "command": "PY:import mhy.maya.animtools.mh_face_anim_importer.main as main;main.mgApplyFaceMocap()",
+        "annotation": "MH Face Animation Importer",
+        "icon": "mh_face_anim_importer.png",
+        "tag": ["anim", "ui"]
+    },
+    "MHBodyAnimImporter": {
+        "command": "PY:import mhy.maya.animtools.mh_body_anim_importer.main as main;mgmmm = main.mg_meta_motion_match_GUI(); mgmmm.show()",
+        "annotation": "MH Body Animation Importer",
+        "icon": "mh_body_anim_importer.png",
+        "tag": ["anim", "ui"]
+    }
+}

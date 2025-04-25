@@ -1,0 +1,21 @@
+global proc AEnsrigMultiIntersectorTemplate( string $nodeName )
+{
+    editorTemplate -beginScrollLayout;
+    
+    // Add custom attributes
+    editorTemplate -addControl "localPosition";
+    editorTemplate -addControl "localScale";
+    editorTemplate -addControl "intersectionColor";
+    editorTemplate -addControl "intersectionTransparency";
+    editorTemplate -addControl "randomizeColors";
+    editorTemplate -addControl "backFaceCulling";
+
+    AElocatorInclude $nodeName;
+
+    editorTemplate -addExtraControls;
+    editorTemplate -endScrollLayout;
+
+    // Hide uncommon attributes
+    editorTemplate -suppress "inputGeometry";
+    editorTemplate -suppress "outIntersection";
+}

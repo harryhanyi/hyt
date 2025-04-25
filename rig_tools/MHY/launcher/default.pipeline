@@ -1,0 +1,24 @@
+{
+    "executable": [
+        "C:/Program Files/Autodesk/Maya<MAYA_VERSION?2022>/bin",
+        "C:/Program Files/Side Effects Software/Houdini <HOUDINI_VERSION?18.5.596>/bin",
+        "C:/Program Files/Epic Games/UE_<UE_VERSION?5.0>/Engine/Binaries/Win64"
+    ],
+    "package": [
+        "../python-core",
+        "../python-ext",
+        "../qt-core",
+        "../qt-resource",
+        "../protostar",
+        "../lams",
+        "../maya-core",
+        "../maya-rig",
+        "../maya-rigtools",
+        "../maya-anim",
+        "../maya-animtools",
+        "../maya-test-resource",
+        "../hou-core",
+        "../hou-tools",
+        "../ue-core"
+    ]
+}

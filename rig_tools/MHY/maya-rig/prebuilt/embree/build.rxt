@@ -1,0 +1,163 @@
+{
+    "append_sys_path": true,
+    "arch": "AMD64",
+    "building": true,
+    "caching": true,
+    "created": 1698298314,
+    "default_patch_lock": "no_lock",
+    "extra_environ": null,
+    "failure_description": null,
+    "from_cache": false,
+    "graph": "{'nodes': [((('fillcolor', '#FFFFAA'), ('fontsize', 10), ('style', 'filled,dashed')), [('_1', 'platform==windows'), ('_2', 'maya-2022'), ('_3', 'cmake'), ('_4', 'visual_studio-2019'), ('_5', 'ns_copy'), ('_6', '~arch==AMD64'), ('_7', '~os==windows-10.0.19041.SP0')]), ((('fillcolor', '#AAFFAA'), ('fontsize', 10), ('style', 'filled')), [('_8', 'platform-windows[]'), ('_9', 'maya-2022.3[0]'), ('_10', 'cmake-3.24.1[0]'), ('_11', 'visual_studio-2019[]'), ('_12', 'python-3.7.7[0]'), ('_13', 'colorama-0.4.6[0]'), ('_14', 'typing_extensions-4.7.1[2]'), ('_15', 'zipp-3.15.0[0]'), ('_16', 'importlib_metadata-6.7.0[0]'), ('_17', 'click-8.1.8[1]'), ('_18', 'ns_copy-0.0.33[]')]), ((('fillcolor', '#F6F6F6'), ('fontsize', 10), ('style', 'filled,dashed')), [('_19', '~python-3.7'), ('_20', '~pymel-1.2'), ('_21', 'platform-windows'), ('_22', 'python-3.7'), ('_23', 'zipp-0.5+'), ('_24', 'typing_extensions-3.6.4+'), ('_25', 'colorama'), ('_26', 'importlib_metadata'), ('_27', 'python'), ('_28', 'click')])], 'edges': [((('arrowsize', '0.5'),), [('_1', '_8'), ('_2', '_9'), ('_3', '_10'), ('_4', '_11'), ('_5', '_18'), ('_9', '_19'), ('_9', '_20'), ('_9', '_21'), ('_10', '_21'), ('_12', '_21'), ('_13', '_22'), ('_14', '_22'), ('_15', '_22'), ('_16', '_23'), ('_16', '_22'), ('_16', '_24'), ('_17', '_21'), ('_17', '_22'), ('_17', '_25'), ('_17', '_26'), ('_18', '_21'), ('_18', '_27'), ('_18', '_28'), ('_19', '_12'), ('_21', '_8'), ('_22', '_12'), ('_23', '_15'), ('_24', '_14'), ('_25', '_13'), ('_26', '_16'), ('_27', '_12'), ('_28', '_17')])]}",
+    "host": "lum-nc10-pc",
+    "implicit_packages": [
+        "~platform==windows",
+        "~arch==AMD64",
+        "~os==windows-10.0.19041.SP0"
+    ],
+    "load_time": 0.0,
+    "num_loaded_packages": 76,
+    "os": "windows-10.0.19041.SP0",
+    "package_caching": false,
+    "package_filter": [],
+    "package_orderers": null,
+    "package_paths": [
+        "L:\\prod\\lumiai\\shared\\temp\\gitlabpipl__1264718\\build",
+        "C:\\Users\\cls_renderer\\packages",
+        "\\\\mihoyo.com\\lumi\\apps\\lumiai\\dp23\\prod",
+        "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+        "L:\\apps\\studio\\beta"
+    ],
+    "package_requests": [
+        "platform-windows",
+        "maya-2022",
+        "cmake",
+        "visual_studio-2019",
+        "ns_copy"
+    ],
+    "parent_suite_path": null,
+    "patch_locks": {},
+    "platform": "windows",
+    "requested_timestamp": null,
+    "resolved_ephemerals": [],
+    "resolved_packages": [
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": null,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "platform",
+                "repository_type": "filesystem",
+                "version": "windows"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 0,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "maya",
+                "repository_type": "filesystem",
+                "version": "2022.3"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 0,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "cmake",
+                "repository_type": "filesystem",
+                "version": "3.24.1"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": null,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "visual_studio",
+                "repository_type": "filesystem",
+                "version": "2019"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 0,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "python",
+                "repository_type": "filesystem",
+                "version": "3.7.7"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 0,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "colorama",
+                "repository_type": "filesystem",
+                "version": "0.4.6"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 2,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "typing_extensions",
+                "repository_type": "filesystem",
+                "version": "4.7.1"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 0,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "zipp",
+                "repository_type": "filesystem",
+                "version": "3.15.0"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 0,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "importlib_metadata",
+                "repository_type": "filesystem",
+                "version": "6.7.0"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": 1,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "click",
+                "repository_type": "filesystem",
+                "version": "8.1.8"
+            }
+        },
+        {
+            "key": "filesystem.variant",
+            "variables": {
+                "index": null,
+                "location": "\\\\mihoyo.com\\lumi\\apps\\studio\\prod",
+                "name": "ns_copy",
+                "repository_type": "filesystem",
+                "version": "0.0.33"
+            }
+        }
+    ],
+    "rez_path": "D:\\td\\packages\\rez\\current\\opt\\rez\\lib\\site-packages\\rez",
+    "rez_version": "3.0.5",
+    "serialize_version": "4.7",
+    "solve_time": 0.660724401473999,
+    "status": "solved",
+    "suite_context_name": null,
+    "timestamp": 1698298314,
+    "user": "CLS_Renderer"
+}
