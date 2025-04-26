@@ -1,1 +1,0 @@
-BrowDownAll_100_L;BrowDownAll_100_R;BrowDownAll_50_L;BrowDownAll_50_R;Sneer_L;Sneer_R;

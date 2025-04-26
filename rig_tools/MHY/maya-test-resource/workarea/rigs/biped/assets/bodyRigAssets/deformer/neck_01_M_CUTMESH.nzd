@@ -1,593 +1,0 @@
-2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] [12/12/2022 4:12:27 AM]
-2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] OS Version Build : 22000
-2022-12-12 04:12:27; Critical; ARMOURY CRATE Matrix; 10456; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 04:12:27; Information; LoadDebugOptions; 10456; 1] (375)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 04:12:27; Information; GameBoxPlugIn.GameBox-AppService; 10456; 1] (380)ProductLine Value=NB, True
-2022-12-12 04:12:27; Information; GameBoxPlugIn.GameBox-AppService; 10456; 1] (380)Subbrand Value=ROG, True
-2022-12-12 04:12:27; Information; GameBoxPlugIn.GameBox-AppService; 10456; 1] (381)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 04:12:29; Critical; GameBoxPlugIn.GetCountryCode; 10456; 2] (1653)US
-2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] [12/12/2022 11:16:12 AM]
-2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] OS Version Build : 22000
-2022-12-12 11:16:12; Critical; ARMOURY CRATE Matrix; 7924; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 11:16:28; Information; LoadDebugOptions; 7924; 5] (16026)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 11:16:28; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (16058)ProductLine Value=NB, True
-2022-12-12 11:16:28; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (16058)Subbrand Value=ROG, True
-2022-12-12 11:16:28; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (16059)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 11:16:29; Critical; GameBoxPlugIn.GetCountryCode; 7924; 2] (16746)US
-2022-12-12 11:16:30; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (17414)ProductLine Value=NB, True
-2022-12-12 11:16:30; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (17414)Subbrand Value=ROG, True
-2022-12-12 11:16:30; Information; GameBoxPlugIn.GameBox-AppService; 7924; 5] (17414)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 11:16:30; Critical; GameBoxPlugIn.GetCountryCode; 7924; 2] (17493)US
-2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] [12/12/2022 11:57:18 AM]
-2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] OS Version Build : 22000
-2022-12-12 11:57:18; Critical; ARMOURY CRATE Matrix; 10360; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 11:57:19; Information; LoadDebugOptions; 10360; 1] (119)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] [12/12/2022 1:20:46 PM]
-2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] OS Version Build : 22000
-2022-12-12 13:20:46; Critical; ARMOURY CRATE Matrix; 16864; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 13:20:46; Information; LoadDebugOptions; 16864; 1] (75)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 13:20:46; Information; GameBoxPlugIn.GameBox-AppService; 16864; 1] (78)ProductLine Value=NB, True
-2022-12-12 13:20:46; Information; GameBoxPlugIn.GameBox-AppService; 16864; 1] (79)Subbrand Value=ROG, True
-2022-12-12 13:20:46; Information; GameBoxPlugIn.GameBox-AppService; 16864; 1] (79)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 13:20:49; Critical; GameBoxPlugIn.GetCountryCode; 16864; 7] (3283)US
-2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] [12/12/2022 2:01:50 PM]
-2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] OS Version Build : 22000
-2022-12-12 14:01:50; Critical; ARMOURY CRATE Matrix; 10636; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 14:01:50; Information; LoadDebugOptions; 10636; 1] (34)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 14:01:50; Information; GameBoxPlugIn.GameBox-AppService; 10636; 1] (35)ProductLine Value=NB, True
-2022-12-12 14:01:50; Information; GameBoxPlugIn.GameBox-AppService; 10636; 1] (35)Subbrand Value=ROG, True
-2022-12-12 14:01:50; Information; GameBoxPlugIn.GameBox-AppService; 10636; 1] (35)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 14:01:50; Critical; GameBoxPlugIn.GetCountryCode; 10636; 3] (491)US
-2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] [12/12/2022 2:51:55 PM]
-2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] OS Version Build : 22000
-2022-12-12 14:51:55; Critical; ARMOURY CRATE Matrix; 5104; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 14:51:55; Information; LoadDebugOptions; 5104; 1] (53)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 14:51:55; Information; GameBoxPlugIn.GameBox-AppService; 5104; 1] (55)ProductLine Value=NB, True
-2022-12-12 14:51:55; Information; GameBoxPlugIn.GameBox-AppService; 5104; 1] (55)Subbrand Value=ROG, True
-2022-12-12 14:51:55; Information; GameBoxPlugIn.GameBox-AppService; 5104; 1] (55)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] [12/12/2022 2:57:52 PM]
-2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] OS Version Build : 22000
-2022-12-12 14:57:52; Critical; ARMOURY CRATE Matrix; 26576; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 14:57:52; Information; LoadDebugOptions; 26576; 1] (39)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 14:57:52; Information; GameBoxPlugIn.GameBox-AppService; 26576; 1] (41)ProductLine Value=NB, True
-2022-12-12 14:57:52; Information; GameBoxPlugIn.GameBox-AppService; 26576; 1] (41)Subbrand Value=ROG, True
-2022-12-12 14:57:52; Information; GameBoxPlugIn.GameBox-AppService; 26576; 1] (41)isAcceptablePL=True, isAcceptableSB=True, PrivacyPolicy=True
-2022-12-12 14:59:09; Information; MobilePlugin; 26576; 16] (76907)EnableLANListener
-2022-12-12 14:59:09; Information; MobilePlugin.LANManager; 26576; 16] (76924)listeningPort: 12177
-2022-12-12 14:59:10; Information; MobilePlugin; 26576; 1] (77999)EnableBTListener
-2022-12-12 14:59:10; Error; GamingCenter.Core.ROGIDService; 26576; 1] (78148)Function GetAccountInfo Error Message:key
-2022-12-12 14:59:11; Error; GamingCenter.Core.ROGIDService; 26576; 1] (78416)Function GetAccountInfo Error StackTrace:   at System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Lookup[TKey, TValue](IDictionary`2, TKey) + 0x7c
-   at System.Runtime.InteropServices.WindowsRuntime.IMapSharedReferenceTypesRCWAdapter.Indexer_Get[TKey, TValue](IDictionary`2, TKey) + 0x24
-   at GamingCenter.Core.Services.ROGIDService.CreateAccountInfo(ValueSet) + 0x3d
-   at GamingCenter.Core.Services.ROGIDService.<GetAccountInfo>d__81.MoveNext() + 0x332
-
-2022-12-12 15:12:10; Critical; ARMOURY CRATE Matrix; 21876; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 15:12:10; Critical; ARMOURY CRATE Matrix; 21876; 1] [12/12/2022 3:12:10 PM]
-2022-12-12 15:12:10; Critical; ARMOURY CRATE Matrix; 21876; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 15:12:10; Critical; ARMOURY CRATE Matrix; 21876; 1] OS Version Build : 22000
-2022-12-12 15:12:10; Critical; ARMOURY CRATE Matrix; 21876; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 15:12:10; Information; LoadDebugOptions; 21876; 1] (164)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-2022-12-12 15:32:16; Critical; ARMOURY CRATE Matrix; 13084; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 15:32:16; Critical; ARMOURY CRATE Matrix; 13084; 1] [12/12/2022 3:32:16 PM]
-2022-12-12 15:32:16; Critical; ARMOURY CRATE Matrix; 13084; 1] Gaming Center Version : 5.3.4.0
-2022-12-12 15:32:16; Critical; ARMOURY CRATE Matrix; 13084; 1] OS Version Build : 22000
-2022-12-12 15:32:16; Critical; ARMOURY CRATE Matrix; 13084; 1] ----------------------------------------------------------------------------------------------------
-2022-12-12 15:32:16; Information; LoadDebugOptions; 13084; 1] (41)DebugProductionLineEnabled:False, DebugProductLine:Unknown, DebugSubBrandEnabled:False, DebugSubBrand:Unknown, DebugLogEnabled:False, DebugLogLevel:Information, IgnoreOnePackageFlow:False, IgnoredPlugins:
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               –s[∫gRç•≤i/⁄˛ít)‚v/T›0Y¯“çb˝À…_F1Pπ'‰@0œr)("«7N=†2=êÕ°8Ö\NVÇ(*2∑K◊OcÁ“-bÒE=Á¨ ˆF°û—[å&SËz™JÚFœ7<8û¥w\•ûçÀèV<¡¨	_” £Ç^0ÇZ0Uˇ0ˇ0UÀË “¥X…7.3πLö
-0UÜ0	+Ç7 0#	+Ç7˝—1N”&äï·ò`;®1o¶<ºÿ-0	+Ç7
- S u b C A0U#0Ä¨Ç`@V'óÂ%¸*·
-SïY‰§0PUI0G0E†C†AÜ?http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T+H0F0D+0Ü8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0	*ÜHÜ˜ Ç Y9>&FØÎo@±2µjÎ/n®I˜Î_uÌL;-◊C≠˛ÀÈ-1£#Ã|PòÄ!]¨=/L∫¢®Vú„pª∏¥¯yµIr˜>ÍA ·iÀ•ú -˙PƒVÕ-„J“ºpÁ®¢•V‡∏äKWÚïBúÒÛÔÓ„Ü4<∏VöS#Ö*§Çì‚îÚ‚N¯å° Ë•ëN»“èrï*qmõ¯S÷gÃ"ˇ\Õ¢åΩ'≤ycVD¢QÕ˘È£XV›õED/_Ù⁄Æ‘Ç2n¸§ï‰ÎiÁ©¢,æ»+eéô€ı¢˙&	e8îÒzJª—·VË–xñ\…5_›ìIé-æ≠4DÓ ]›5[!Œò«	ÓÖåOmN=|)Húr—Ûl ¡Ïp£WíW}îç†HZ˜œ£g
-t•6Ì-/»Êr7Ùo±<gÇ˘R≤ç3eä›ﬁdÙoŒF‘”Èyƒ¥”˚,ﬂäû¨
-˚'@≠‰˘·©Fª`Ge`@N∞BÏNÌ≥vyÿ
-4	mÄ1‚T›Â°˚ÂG≠dòˇP.|ø!z‚ïA'i√ìèï…çÿõ!Æ\ú¢ÆÜhÉj-ªvk ñ≠Ú{ˆÉ$πàœj®G1/ö‹„q=◊ ~bG—Œà…∏˙rç¡£=Ø@jˇiõñ‚®¥7P÷√=0Ç0ÇÔ†
-ah4     0	*ÜHÜ˜ 0_10
-	í&âìÚ,dcom10
-	í&âìÚ,d	microsoft1-0+U$Microsoft Root Certificate Authority0070403125309Z210403130309Z0w10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1!0UMicrosoft Time-Stamp PCA0Ç"0	*ÜHÜ˜ Ç 0Ç
-Ç ü°l±ﬂ€Hí*|k.·Ω‚„≈ôQ#P≠Œ›N$Ó—ß—L≠t0 Î’TïIîBíÆò\0&⁄ kË{ΩÏâ˜òâÃÀ3$áùÚÙg,¸{ÁàÍÁN£°¡#S ç˙Eœ	–^Ø–∞B¢˘¶lìg◊(‹FS∞Ü–Â(F.'¨ÜOUR‰,˚jêê0náÛY0ù˙~÷ó≥Ë!ó~¯“Û∑SmR¥EêüH JGf')f®ó‰”ÅJ¢˘ÑßG	ÇüÑÌUx˛öPÖ 0FÌ∑ﬁ#Fªƒ-TüØxA1wÃõﬂ;Éì°aµ±¸˜õ≤Œ"KTˇ˘√¬  £Ç´0Çß0Uˇ0ˇ0U#4¯ŸRFp
-Ì@˚v˚≥+∞√5≥0UÜ0	+Ç7 0ÅòU#Åê0ÅçÄ¨Ç`@V'óÂ%¸*·
-SïY‰§°c§a0_10
-	í&âìÚ,dcom10
-	í&âìÚ,d	microsoft1-0+U$Microsoft Root Certificate AuthorityÇy≠°J†•≠LsXÙ.e0PUI0G0E†C†AÜ?http://crl.microsoft.com/pki/crl/products/microsoftrootcert.crl0T+H0F0D+0Ü8http://www.microsoft.com/pki/certs/MicrosoftRootCert.crt0U%0
-+0	*ÜHÜ˜ Ç óä√\D6›È¥≠w€ŒyQM±.tq[m´Œæ{è∏.‘¢åmb∏WÀN Pô›z@‚WªØXö·Ü¨ªxÚã–Ï;Ó‚æè
-»çH‚S›O´í‰Áçj’Ä¡ÊîÚ/ÖÈë*$"p˚ˆ¸‰xô.˜‚pºNùék
-rï∏°9úg-≈QÍb\?òã ?‚2˘Ã1Jv1=+r»Íp=ˇÖ
-ﬂ¬
-aé◊∏ÎNã≈5+^£øÎº}B{‘Sr!Ó0 ªxe\[
-“⁄òı<πfX≥-/Á˘ÖÜÃQVËùpîl¨9L‘ˆyø™zb)Ô¢õ)4wb…=mÇ«,ªœC≥Â˘Ï}µ„§®t5∏N≈q#&v<RåqZFCº≥≥∞Mg»üBˇÄy!Äû0fËB^»û"!–CÈ+ÈªÙHÃ,‘ÿ2ÄL&*H$_ZÍVÔ¶ﬁôù :oΩÅ'tÓv!øõÇ¡'T∂±j=â°va¥n°¶ø™Go˝ä2l≤˛ﬂQ»å#…fΩùád=-ØYè∏‰!Âµ∞ c¥xT‘A.P¨î∞•x´≥†ñuŸíáu"/2®n†[å%ø†ÔÑ !÷ÎO…öÓI‡˜eoâ}»i»ÊnÍßóŒ1)ˇ≈[\ÿM°ÿ˙/û?.Uk…£˝1Ç&∑0Ç&≥0Åê0y10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1#0!UMicrosoft Code Signing PCA3  
-,yÆ◊y{¶¨   
-0	+ †Å∫0	*ÜHÜ˜	1
-+Ç70
-+Ç710
-+Ç70#	*ÜHÜ˜	1X_Tyû>VÓ’§•‰êê&Ä∂À¶0Z
-+Ç71L0J†$Ä" M i c r o s o f t   W i n d o w s°"Ä http://www.microsoft.com/windows0	*ÜHÜ˜ Ç Üh&l—&‹«€tÕ©ÄsÏzÄ†$˚Î¨ÄπbYΩs
-π)¥Îêqäû∆Àÿù‘Lîk™O≤Zs`9@|∏·ˇP‡^Z?ÊÚª8JB~1]|õwQú©ù¿•Uw9gRÜ
-Xû;‰\∆∂Äáó<πGùÜÒ¸…",(*≠ñ:g¬Ë£ûhê‹jálÆ„J~2åƒMAñPT>’Ú7£RL†∞`±tﬂ‡±¥Ô„¶’‹ 7˘Ø˙= ø\êõË’ŒÖ√«-Õ\áh¯≤<T‚”}ˇAìLRüÒT6X
-à7Qá¨–=6ö⁄ø]âœÅ@C©≥AxaπA è‘°Ç$>0Ç$	*ÜHÜ˜	1Ç0Ç0Åé0w10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1!0UMicrosoft Time-Stamp PCA3   oe-XmF(     o0	+ †]0	*ÜHÜ˜	1	*ÜHÜ˜0	*ÜHÜ˜	1150710053248Z0#	*ÜHÜ˜	190: :Ï{-´Ô∏rLûz%*0	*ÜHÜ˜ Ç )°ﬁ$Ï√T3¶Qüé#&U≤X6≈±ÃA}˛Ø3›0HÒﬁ|‚J•éôóQå‡}}0F´tà>!∏≥ÔùK≥d:]©Éë˘&ÊåòR#åG—P"\}+52§_oz{"BV´òj/ä¯bﬁ±ªÌÒC¢GRøëwß#Ñ©Á[Z6'á‚;„Ù§˙· §Ûf>·1÷p:ÈêiBiYd!}‡Wò.u,_≈–ˆcÄæÒáõÍ`.—Ôÿ∏Cs}#¶úß—≠8⁄…Ú1+J_´ëX>œ?ºN:®£rcXqwÕpÌôd˝éa∞î
-ò‰ßÅÂQÙ¢ìµ@±k“∑0Ç"
-+Ç71Ç"0Ç!˛	*ÜHÜ˜†Ç!Ô0Ç!Î10	`ÜHe 0\
-+Ç7†N0L0
-+Ç70	 †¢Ä 010	`ÜHe  ∆ùN>™Hf=p£˛Çê∫ı`ä[ˇgé´ı_VÏ≥9ö†ÇÉ0Ç0ÇÛ†3   {¢Åá´Á¸     {0	*ÜHÜ˜ 0~10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20100141001180638Z160101180638Z0ÅÉ10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation10UMOPR10UMicrosoft Corporation0Ç"0	*ÜHÜ˜ Ç 0Ç
-Ç Ω1∆ÿv^5·Èòáˇƒ{˘ÑGJ”≈'fi€l6ú”°pó5="_\ÅÁGò5Fí>˝7‰à⁄)aS$«}âumıg0⁄ô„IØ^D#$Ef¿⁄sK~¸|@·#Ÿ)âF›7? wﬁÃªHi‡sÍ;*í.åÇI8†*ë°€˜}jë.käfe&l‰2NOêÀÈ∫¸ú1™»≤ûÒ∞]ï|JõÓ√âF:aâl∂fﬁFJ”…yÚ«~€∂ê~`"‹-pÿú'7¨\Û'HZ¯â!§t>k≈"©7}≥gM∆‰úY£àª/ƒøˇCQ˝s= £Çz0Çv0U%0+
-+Ç7=0UOÓê£¶≥æ?™îDºÚòëO20QUJ0H§F0D10UMOPR1301U*38076+68d2f8bb-0a3b-40b4-9f24-eb7e9419d1600U#0ÄÊ¸_{ª" X‰rNµÙ!t#2ÊÔ¨0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicCodSigPCA_2010-07-06.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicCodSigPCA_2010-07-06.crt0Uˇ0 0	*ÜHÜ˜ Ç /T'wàâx^[≠⁄√¿K<%?‰1™Æ#¥éa‚0ÅQ˛Héı0#MÀﬁ`àsòáC=‡ãÓ†oUÆò–gÆ 1ææÌÌÜu
-íJ:ﬁq8¥a˜¿;·1Ò¸ø0azuﬂ6ÑWt¶äÈ(1ıåêﬂ™Y—û•Ö&ß„¿\TÂ›’]ˇä117[-˛-óP®ÏÜHë≠≤f<{Ea	¨g·}Ç'O
-¸K.‘˘ï3{®&<íCÊô‡º´
-MsQ[v &â’5«∫”˝‹∏é*jm∆WQ@=™4H *OûÅq MUÑJx˜Ü˜•â1]%/≠ÃµhYÓQK<H+"6´–Üé“â0Çp0ÇX†
-aRL     0	*ÜHÜ˜ 0Åà10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100706204017Z250706205017Z0~10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20100Ç"0	*ÜHÜ˜ Ç 0Ç
-Ç ÈdPygµƒ„˝	 Lûî¨˜VhÍDÿœ≈XO©•v|mE∫”9í¥§˘˘eÇ‰“è˝DúËeìŒ,UÑø}„.+®A+∑¢KnILkﬁ—“¬âqîÕµK¥ØÿÃà÷kî:ìŒ&?ÏÊ˛4òW’]Iˆ≤*.’ÖªY?¯ê¥+Ét +≥;F„FI¡fT…ΩƒUbWr¯gπ% 4ﬁ]¶•ï^´(ÄÕ’≤ûÂµc”≤»¡»ä&
-YÏˇÌÄ5L¶æR[ı¶⁄‡ãHw÷ÖG’π∆Ë™Óãj-\`∆¥*[ú#_E„o7À3ÄjâM£jfcxì’0œï £Ç„0Çﬂ0	+Ç7 0UÊ¸_{ª" X‰rNµÙ!t#2ÊÔ¨0	+Ç7
- S u b C A0UÜ0Uˇ0ˇ0U#0Ä’ˆVÀèË¢\bh—=îê[◊Œöƒ0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0ÅùU Åï0Åí0Åè	+Ç7.0ÅÅ0=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*ÜHÜ˜ Ç tÔWO){ƒÖx∏P”"¸	ù¨Çó¯4ˇ*,óïÂ‰øœøì»„4©€Å∏‹ æ“5oØÂyïwÂ‘ÒÎÿÕNa¢¬Z#å®bQEg„?<ì¯0Ö»9@¶◊≥!)Â•°iå"ìÃtòÁ°GCÚS¨¿0i˛“% moa”ﬂ’Ÿr ,iÜv=Q€¶9H…7am›SÀß÷a¬ø‚É´‡kõï÷}(Q∞âJQ§öl»∑Ji©◊‹¡~—Ip™∂≠ªrGc˙¶÷¢¶ÜÏ®Dõc∂≤iâ«FÜz?Ë≈!’{˘#-≈AÀøL»Ô±ú¸"KIän„¶v[—SyëÖù’“€=s5Û<ÆT≤RGj¿™ï“é⁄ôg^2å˚7Ö—‹uÖúá∆ZWÖ¬ø›èåõ-Î¥Óœ'”µ^i˙§ß$gsœMO∂ﬁVóz˜ÈRMÙwOÖ∆ÿÒéÌB	—v„#Vx"&6æ ±ån™‰Ö⁄G3bè§…ë3_q@Øòe…"ËB!%ä-`Ÿ7âAâ*◊a<îh`RÔ÷Gô†Ä@ÓÅw>ú‡SP8ïõf3'9xá6ŒN√_≤ı=GS∂‡Â€a=*◊í,Œ7Z>@B1§¬Vúø$]Qùjy“”⁄¡îé{%qD´jÊ‘∆ﬂ#öñu≈1ÇÓ0ÇÍ0Åï0~10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1(0&UMicrosoft Code Signing PCA 20103   {¢Åá´Á¸     {0	`ÜHe †ÅŸ0
-*ÜHÜ˜	10	*ÜHÜ˜	1
-+Ç70
-+Ç710
-+Ç70/	*ÜHÜ˜	1" ˜Ë¬‹&€≥Â|Ê0œ>Ë;&´‘Sv•±ÿ€¬TO∆›ä0Z
-+Ç71L0J†$Ä" M i c r o s o f t   W i n d o w s°"Ä http://www.microsoft.com/windows0	*ÜHÜ˜ Ç >B´ˇûÿã1v[8jC ‚ò	Ñ'ï*Îˆ>RØ
-hÓ7kjn˙ú3¿È›ÌUÇ
-7Ù’m8Ú.gMãî¥»#‡C•ªòZTÕ·ˇ„"6≠˛:ä≠9ﬂí˛îc‰‹‹≥‡oıπÌë4¶ÍgOë(m“jfñç˛ÿaπøA!é*ÀkOcØ.õã‡w„õÄ==ìï3f9?›a“÷%PW»^ú1Ú≠a)´e’*é‘¨|“è∫‚∞FñÖ#˜*X ”!É¢W%{àsñv∂ôC‘Êèô¸µW_Õßp2ÀãÑ(ïu@—È=~'È¬@4û{mŸˇP‹QïXÁm∑Â¶Æ°ÇM0ÇI
-+Ç71Ç90Ç5	*ÜHÜ˜†Ç&0Ç"10	`ÜHe 0Ç=*ÜHÜ˜	†Ç,Ç(0Ç$
-+ÑY
-010	`ÜHe  Ê@bê…)c«,¸ÉtfÒ‰ùo~MÖ⁄ó`=•èU|4è20150710053248.828Z0ÄÙ†Åπ§Å∂0Å≥10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation10UMOPR1'0%UnCipher DSE ESN:BBEC-30CA-2DBE1%0#UMicrosoft Time-Stamp Service†Ç–0Çq0ÇY†
-a	Å*     0	*ÜHÜ˜ 0Åà10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100100701213655Z250701214655Z0|10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100Ç"0	*ÜHÜ˜ Ç 0Ç
-Ç ©ºwä: Ï¸óı˙iîktT’•
- ÇÖ˚Ì|hK,_≈√Âa¬v∑>f+[S'1AïŒ	é|a0Y±0DÒ`àÑTC◊M∏8≥B›ì¨÷s0W&Ç£E–ÍıGÅÕø$`2X`FÚXGÜ2Ñtagë_ÅT±œìLí¡ƒ¶]—an(∆˘ÜÄªﬂa¸F¡'$gr!äØKdâPb±]˝w=Wu¨ΩäBM@Q—ú>gıf¿ñD~Ô–K˝nÂö ±®Úz*
-1⁄Në∂à5Ëx∞ÈôÕ<Á/D∫ßÙ‹dΩ§¡ 	ìxÕ¸º¿…D]^úO"M £ÇÊ0Ç‚0	+Ç7 0U’c:\ä1êÛC{|F≈3hZÖmU0	+Ç7
- S u b C A0UÜ0Uˇ0ˇ0U#0Ä’ˆVÀèË¢\bh—=îê[◊Œöƒ0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0Å†U ˇÅï0Åí0Åè	+Ç7.0ÅÅ0=+1http://www.microsoft.com/PKI/docs/CPS/default.htm0@+042  L e g a l _ P o l i c y _ S t a t e m e n t . 0	*ÜHÜ˜ Ç ÊàQ‚∆‡ò?Åq=ù£°!o≥Î¶Ãı1æœ‚©˛˙Wm0≥¬≈f…jﬂıÁxΩ«®û%„˘ºÌkTW+QÇD˚πSåÃÙ`ävÃ@@Aõ‹\ˇ\˘^5ò$VKtÔB»Øø∆Ú7}Z?ÚôyJëR Ø8ı/yÅeŸ©µk‰«Œˆ z oK0D$"<œÌ•ñèY)º∂˝·pü2J'˝UØ/˛∂Âé3ªb_ö€W@ÈÒŒôfêåˇjb›≈Jë&‚9ÏJqcù{!m√ú£¢<˙}ñjêx¶m“·ú˘¸8ÿîÙ∆•
-ñÜ§ΩûÆBÉ∏µÄõ"8 µ%ÂdÏ˜Ùø~cY%z.9Wv¢q™äâ∫aßÀöÿGöÄ≈–Õß–Ô}É·;q	ﬂ]tò"a⁄∞PoΩÒ· ﬂÁ1§ì:˜eGxË¯®H´˜ﬁr~akow©ÅÀß	¨9ªÏ∆ÀÿÇ¥rÕÙ∏ÖÄ˚â*T9≤[⁄»Uôzás;Êò-Íç‡3.)ı¿/T'!˜»¨N⁄(∏±©€ñ≤ßB¢…œAM‡Ü˘*ö£f0”ªt2Kﬂc{ıôä/«!ØYµÆ‹D<óPq◊°“≈U„iﬁW¡—ﬁ0¿˝ÃÊM˚ø]OÈù8/ºœX.Ô†P5⁄Ô	'’≥~5∫⁄6€”_èﬁtàI0Ç⁄0Ç¬†3   V‘S˜ ‰V,¯     V0	*ÜHÜ˜ 0|10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100150320173228Z160620173228Z0Å≥10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation10UMOPR1'0%UnCipher DSE ESN:BBEC-30CA-2DBE1%0#UMicrosoft Time-Stamp Service0Ç"0	*ÜHÜ˜ Ç 0Ç
-Ç ß	Yó^Á,∂ﬁ@hÛ·è2ÙNF◊CÊPáN‚·˘2ø)gnj9ﬂ#ÚÖBE5Tpå\Ÿù ⁄Ìö5ﬂÍïƒÒ“3¨}«oPCUhÅÍá!p⁄9Ù.ˇ‘{ÿ÷è≤»%4@Ca€è2cŸZä^:≠oz◊Ûlãœ˝ﬁ˘¯ z(r&gÍÄ◊=	O˜=÷øûƒÎ‚PÔ|!v3E%†/ıƒi*òÙ‰«SpwáQ!á,›k©ƒlî6 m≠QØ¶z[ré€Ü$gb"≈A∆@BﬂR∫…>kÀ:ç
-wà
-Q≥‚3·5HÚ3≠°À|òßwßéMıHrˆâp; £Ç0Ç0UËË∆+\û€º'“f&œhhRâ0U#0Ä’c:\ä1êÛC{|F≈3hZÖmU0VUO0M0K†I†GÜEhttp://crl.microsoft.com/pki/crl/products/MicTimStaPCA_2010-07-01.crl0Z+N0L0J+0Ü>http://www.microsoft.com/pki/certs/MicTimStaPCA_2010-07-01.crt0Uˇ0 0U%0
-+0	*ÜHÜ˜ Ç ëHœJx«ãIœMÌØe‘uÚ∞‘íˇSE~¡Áù≥*]Y9÷ÉÊQcBHb}I”$äl2u‰
-mÚ$vX„‘/'C˛;u◊‰éy‰(àæÈÈTıÈci¢_“œ‘Ù4GÑá…1…36)ùô‹E⁄,>Ëô‹ô$[ìÌDÅ⁄B≈ØÅñ´ôºê5Û∏GÄ…N;>F≥í\d¥yºIF∆È°Ëˆ8ŒØ±˝QÄckåHÆn>zsD°Ãºçª)ÏSm—‚Ãce_R„ÛYia56*≠Ó·Ìq·˙˚ÆhK7ã¶K–¿Uê1„dÆ›ËÓ±Í‹r 4ñÚ-ÁlÎ∞ı/ZU˝E°Çy0Ça0Å„°Åπ§Å∂0Å≥10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation10UMOPR1'0%UnCipher DSE ESN:BBEC-30CA-2DBE1%0#UMicrosoft Time-Stamp Service¢%
-0	+  >zÜ¡SÉÈﬁJø ∂ÒtÍo†Å¬0Åø§Åº0Åπ10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation10UMOPR1'0%UnCipher NTS ESN:57F6-C1E0-554C1+0)U"Microsoft Time Source Master Clock0	*ÜHÜ˜  ŸIèæ0"20150710002638Z20150711002638Z0w0=
-+ÑY
-1/0-0
- ŸIèæ 0
- êˇ0 0
- ŸJ·> 06
-+ÑY
-1(0&0
-+ÑY
-†
-0 „`°
-0 ° 0	*ÜHÜ˜ Ç (I-ÏD–:Bi˙¡`Ω®ViâLÖˆ“rv5@‘Èø)™ø2On“¬>áà´FÒÂ&s’V∏—≥inˆÿáv◊m˛ÏÜèˆypqå=€ª∂xvÚ~¬Ú<`aXV—5ó¯∑Ú"–}„Gg6?ãÖ‚Hg/<F0ÚÃÍ⁄h~›÷É~e)©≤ÂW®ﬁ„å€a,ˇ1(öSU2√Ì%Õ™$nπ/◊ØH:ﬂsﬁò8\¿ë¯3“p9Å!ÌòÛ,QáπÒN˜¥ñFØËèù!æ√M0¨·}Uu+æêiñ
- 1ne”åb/ùÖ¥+8Ã!&nI€sxÜî¥·®iˆ∏Ãñƒ`…ÏÈ1Çı0ÇÒ0Åì0|10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   V‘S˜ ‰V,¯     V0	`ÜHe †Ç20	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" 6ú2$®hÇV—øì‚=—ó±*-•«1Ú”ÃƒÉ¸ı0Å‚*ÜHÜ˜	1Å“0Åœ0ÅÃ0Å±>zÜ¡SÉÈﬁJø ∂ÒtÍo0Åò0ÅÄ§~0|10	UUS10U
-Washington10URedmond10U
-Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103   V‘S˜ ‰V,¯     V0+ÊŸ˘ﬁp8«•ƒê4a+8¿o¸”0	*ÜHÜ˜ Ç u^∫∆WéPﬂâ&æà∞3“v;œ⁄8(}áÍTÀ¢
-¥4ÉÒÎ⁄fµ…ﬂde≠FÛÈ„¨Ç<Tßﬂ®Ï‚Ã%:&[avæOÕ"æ@æ5{óÍ}+ÊŸrÀIÈ¸∏Ã—l+ÿ?+Ì\π˝‰5‘÷Ç˚ŸãE	Ê´˘°ÖíÂ*G∂0d^s…€P‹¢ø˘‰¥3±+6|6©K®J´ Ä†ÿj>*ÅMœi1ª|˙%C}œûB˙·ó…≥£Œs'˛JÌ‚Èﬁ¯^wê≤F®+7<;[¥	ÂÉ≠/@ƒ}Mä·td¢øyüﬁ◊≥à^3'çQ˚‚Ssa.=“Oí°π9_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  m e r s i v e c o n t r o l p a n e l _ c w 5 n 1 h 2 t x y e w y ! m i c r o s o f t . w i n d o w s . i m m e r s i v e c o n t r o l p a n e l Path[62]b   C : \ P r o g r a m   F i l e s \ A u t o d e s k \ M a y a 2 0 2 2 \ b i n \ f c h e c k . e x e Path[63]L   B 9 E C E D 6 F . A U R A C r e a t o r _ q m b a 6 c d 7 0 v z y y ! A p p Path[64]<   C : \ P r o g r a m   F i l e s \ 7 - Z i p \ 7 z G . e x e Path[65]T   B 9 E C E D 6 F . A S U S P C A s s i s t a n t _ q m b a 6 c d 7 0 v z y y ! A p p Path[66]6   C : \ W i n d o w s \ S y s t e m 3 2 \ c m d . e x e Path[67]N   B 9 E C E D 6 F . A r m o u r y C r a t e _ q m b a 6 c d 7 0 v z y y ! A p p Path[68]n   M i c r o s o f t W i n d o w s . C l i e n t . W e b E x p e r i e n c e _ c w 5 n 1 h 2 t x y e w y ! A p p Path[69]x   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ M i c r o s o f t \ E d g e \ A p p l i c a t i o n \ m s e d g e . e x e Path[6]>   C : \ W i n d o w s \ S y s t e m 3 2 \ d l l h o s t . e x e Path[70]`   C : \ U s e r s \ a d r i a \ A p p D a t a \ R o a m i n g \ Z o o m \ b i n \ Z o o m . e x e Path[71]v   C : \ P r o g r a m   F i l e s \ M i c r o s o f t   O f f i c e \ r o o t \ O f f i c e 1 6 \ O U T L O O K . E X E Path[72]Ó   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ C o m m o n   F i l e s \ A u t o d e s k   S h a r e d \ A d s k L i c e n s i n g \ 1 1 . 0 . 0 . 4 8 5 4 \ A d s k L i c e n s i n g A g e n t \ A d s k L i c e n s i n g A g e n t . e x e Path[73]n   M i c r o s o f t . W i n d o w s . S h e l l E x p e r i e n c e H o s t _ c w 5 n 1 h 2 t x y e w y ! A p p Path[74]>   C : \ W i n d o w s \ S y s t e m 3 2 \ T a s k m g r . e x e Path[75]T   M i c r o s o f t . W i n d o w s . P h o t o s _ 8 w e k y b 3 d 8 b b w e ! A p p Path[76]¢   T e n c e n t W e C h a t L i m i t e d . f o r W i n d o w s 1 0 _ s d t n h v 1 2 z g d 7 a ! T e n c e n t W e C h a t L i m i t e d . f o r W i n d o w s 1 0 Path[77]r   C : \ P r o g r a m   F i l e s \ A d o b e \ A d o b e   P h o t o s h o p   2 0 2 2 \ P h o t o s h o p . e x e Path[78]ﬁ   C : \ W i n d o w s \ S y s t e m 3 2 \ D r i v e r S t o r e \ F i l e R e p o s i t o r y \ a s u s s c i 2 . i n f _ a m d 6 4 _ a e f f 0 2 5 f 0 1 0 8 f b 4 4 \ A S U S O p t i m i z a t i o n \ A s u s O S D . e x e Path[79]p   M i c r o s o f t W i n d o w s . C l i e n t . C B S _ c w 5 n 1 h 2 t x y e w y ! S c r e e n C l i p p i n g Path[7]ä   C : \ P r o g r a m   F i l e s \ A d o b e \ A d o b e   P r e m i e r e   P r o   2 0 2 2 \ A d o b e   P r e m i e r e   P r o . e x e Path[80]P   M i c r o s o f t . S c r e e n S k e t c h _ 8 w e k y b 3 d 8 b b w e ! A p p Path[81]p   M i c r o s o f t . L o c k A p p _ c w 5 n 1 h 2 t x y e w y ! W i n d o w s D e f a u l t L o c k S c r e e n Path[82]P   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ I n t e g o \ I n t e g o . e x e Path[83]P   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ W X W o r k \ W X W o r k . e x e Path[84]\   C : \ P r o g r a m   F i l e s \ S u b l i m e   T e x t \ s u b l i m e _ t e x t . e x e Path[85]^   C : \ P r o g r a m   F i l e s \ A u t o d e s k \ M a y a 2 0 2 2 \ b i n \ m a y a . e x e Path[86]`   M i c r o s o f t . M i c r o s o f t S t i c k y N o t e s _ 8 w e k y b 3 d 8 b b w e ! A p p Path[87]f   M i c r o s o f t W i n d o w s . C l i e n t . C B S _ c w 5 n 1 h 2 t x y e w y ! C o r t a n a U I Path[88]v   M i c r o s o f t . W i n d o w s . S t a r t M e n u E x p e r i e n c e H o s t _ c w 5 n 1 h 2 t x y e w y ! A p p Path[89]j   C : \ P r o g r a m   F i l e s \ G o o g l e \ C h r o m e \ A p p l i c a t i o n \ c h r o m e . e x e Path[8]f   C : \ P r o g r a m   F i l e s   ( x 8 6 ) \ N C H   S o f t w a r e \ D e b u t \ d e b u t . e x e Path[90]T   M i c r o s o f t . W i n d o w s N o t e p a d _ 8 w e k y b 3 d 8 b b w e ! A p p Path[91]@   C : \ W i n d o w s \ S y s t e m 3 2 \ c l e a n m g r . e x e Path[92]r   C : \ W i n d o w s \ S y s t e m 3 2 \ W i n d o w s P o w e r S h e l l \ v 1 . 0 \ p o w e r s h e l l . e x e Path[93].   C : \ W i n d o w s \ e x p l o r e r . e x e Path[9]^   M i c r o s o f t . S e c H e a l t h U I _ 8 w e k y b 3 d 8 b b w e ! S e c H e a l t h U I RunTime_All[0]   +áŸŒWA@RunTime_All[10]   ≥»væüï@RunTime_All[11]   5^∫Iå†≤@RunTime_All[12]   ∏Û˝‘x¡k@RunTime_All[13]   ªtìñG@RunTime_All[14]   ÆG·z~a@RunTime_All[15]   »væüÔA@RunTime_All[16]   Zd;ﬂO≠J@RunTime_All[17]   ◊Œ˜S„uz@RunTime_All[18]   ◊£p=
-E@RunTime_All[19]   ÑÎQ∏üw@RunTime_All[1]   ¯S„•õƒ@RunTime_All[20]   —"€˘~äE@RunTime_All[21]   bX9¥àq@RunTime_All[22]   7âA`Âê1@RunTime_All[23]   ‚zÆGa3@RunTime_All[24]   ¨Zdªª°@RunTime_All[25]   #ÅïCÉj@RunTime_All[26]   úƒ ∞rh@RunTime_All[27]   Ã°E∂Ûy@RunTime_All[28]   @5^∫IúC@RunTime_All[29]   ∫I+á˙?RunTime_All[2]   X9¥»vRg@RunTime_All[30]   (1¨Z@RunTime_All[31]   /›$X@RunTime_All[32]   +á9O@RunTime_All[33]   iëÌ|?u5@RunTime_All[34]   #€˘~jåM@RunTime_All[35]   öôôôôπ3@RunTime_All[36]   ñCãlÁØm@RunTime_All[37]   ÖÎQ∏ÓU@RunTime_All[38]   √ı(\ÔÓº@RunTime_All[39]   ƒ ∞rhqS@RunTime_All[3]   –˜S„•IÄ@RunTime_All[40]   +áŸŒIp@RunTime_All[41]   –"€˘~Üj@RunTime_All[42]   ºü/][í@RunTime_All[43]   ◊£p=≤∆È@RunTime_All[44]   ÏQ∏ÖÎ—?RunTime_All[45]   '1¨\›¡@RunTime_All[46]   `Â–"€Ñ@RunTime_All[47]   Ú“Mb\~@RunTime_All[48]      ¿¡¥@RunTime_All[49]   è¬ı(\õy@RunTime_All[4]   `Â–"€˘ @RunTime_All[50]   
-◊£p=
-ı?RunTime_All[51]   ß∆K7ŸU@RunTime_All[52]   ·•õƒ \s@RunTime_All[53]   nÉ¿ Ò@@RunTime_All[54]   6âA`Â⁄y@RunTime_All[55]   ∂Û˝‘∞Ê‹@RunTime_All[56]   Ä¿ °EÕë@RunTime_All[57]   9âA`+Ù@RunTime_All[58]   à¿ °˝”@RunTime_All[59]   X9¥à®@RunTime_All[5]   ;ﬂOçóÓ@RunTime_All[60]   ≥rhëmõê@RunTime_All[61]   cX9©< ARunTime_All[62]   ∆K7âAÃb@RunTime_All[63]   '1¨˙5@RunTime_All[64]   †/›$⁄b@RunTime_All[65]   uìVAì@RunTime_All[66]   úƒ ∞r∞b@RunTime_All[67]   `Â–"€òô@RunTime_All[68]   ÏQ∏ÖõU@RunTime_All[69]   oÉ¿VrÏ@RunTime_All[6]   √ı(\èB%@RunTime_All[70]   ±ùÔ'yARunTime_All[71]   ß/›,ARunTime_All[72]   æü/›TJ@RunTime_All[73]   ‹$Åµ«@RunTime_All[74]   ‡•õƒ†t£@RunTime_All[75]   ]X9‘f«@RunTime_All[76]   êCãÏÚÏ"ARunTime_All[77]   ÄhëÌlΩ‰@RunTime_All[78]   
-◊£p=h@RunTime_All[79]   -≤ùÔß¶@@RunTime_All[7]   ∏ÖÎQbú@RunTime_All[80]   ›$ÅïCD@RunTime_All[81]   ◊£P¡7ARunTime_All[82]   E∂Û}CARunTime_All[83]   ı©ÒR4ö;ARunTime_All[84]   F·zF‘”@RunTime_All[85]   ‘&1(ÓNARunTime_All[86]   ÃMbê7…ARunTime_All[87]   K7âAËARunTime_All[88]   –˜S„•wp@RunTime_All[89]   ¥Ò“ç)8ARunTime_All[8]   ,≤ùÔßéY@RunTime_All[90]   S∏ÖÎy∑@RunTime_All[91]   ìV-@RunTime_All[92]   òÌ|?ïÊæ@RunTime_All[93]   ”Mbd& ARunTime_All[9]   d;ﬂOçßa@Size   ^       Type[0]   F o r e g r o u n d Type[10]   F o r e g r o u n d Type[11]   F o r e g r o u n d Type[12]   F o r e g r o u n d Type[13]   F o r e g r o u n d Type[14]   F o r e g r o u n d Type[15]   F o r e g r o u n d Type[16]   F o r e g r o u n d Type[17]   F o r e g r o u n d Type[18]   F o r e g r o u n d Type[19]   F o r e g r o u n d Type[1]   F o r e g r o u n d Type[20]   F o r e g r o u n d Type[21]   F o r e g r o u n d Type[22]   F o r e g r o u n d Type[23]   F o r e g r o u n d Type[24]   F o r e g r o u n d Type[25]   F o r e g r o u n d Type[26]   F o r e g r o u n d Type[27]   F o r e g r o u n d Type[28]   F o r e g r o u n d Type[29]   F o r e g r o u n d Type[2]   F o r e g r o u n d Type[30]   F o r e g r o u n d Type[31]   F o r e g r o u n d Type[32]   F o r e g r o u n d Type[33]   F o r e g r o u n d Type[34]   F o r e g r o u n d Type[35]   F o r e g r o u n d Type[36]   F o r e g r o u n d Type[37]   F o r e g r o u n d Type[38]   F o r e g r o u n d Type[39]   F o r e g r o u n d Type[3]   F o r e g r o u n d Type[40]   F o r e g r o u n d Type[41]   F o r e g r o u n d Type[42]   F o r e g r o u n d Type[43]   F o r e g r o u n d Type[44]   F o r e g r o u n d Type[45]   F o r e g r o u n d Type[46]   F o r e g r o u n d Type[47]   F o r e g r o u n d Type[48]   F o r e g r o u n d Type[49]   F o r e g r o u n d Type[4]   F o r e g r o u n d Type[50]   F o r e g r o u n d Type[51]   F o r e g r o u n d Type[52]   F o r e g r o u n d Type[53]   F o r e g r o u n d Type[54]   F o r e g r o u n d Type[55]   F o r e g r o u n d Type[56]   F o r e g r o u n d Type[57]   F o r e g r o u n d Type[58]   F o r e g r o u n d Type[59]   F o r e g r o u n d Type[5]   F o r e g r o u n d Type[60]   F o r e g r o u n d Type[61]   F o r e g r o u n d Type[62]   F o r e g r o u n d Type[63]   F o r e g r o u n d Type[64]   F o r e g r o u n d Type[65]   F o r e g r o u n d Type[66]   F o r e g r o u n d Type[67]   F o r e g r o u n d Type[68]   F o r e g r o u n d Type[69]   F o r e g r o u n d Type[6]   F o r e g r o u n d Type[70]   F o r e g r o u n d Type[71]   F o r e g r o u n d Type[72]   F o r e g r o u n d Type[73]   F o r e g r o u n d Type[74]   F o r e g r o u n d Type[75]   F o r e g r o u n d Type[76]   F o r e g r o u n d Type[77]   F o r e g r o u n d Type[78]   F o r e g r o u n d Type[79]   F o r e g r o u n d Type[7]   F o r e g r o u n d Type[80]   F o r e g r o u n d Type[81]   F o r e g r o u n d Type[82]   F o r e g r o u n d Type[83]   F o r e g r o u n d Type[84]   F o r e g r o u n d Type[85]   F o r e g r o u n d Type[86]   F o r e g r o u n d Type[87]   F o r e g r o u n d Type[88]   F o r e g r o u n d Type[89]   F o r e g r o u n d Type[8]   F o r e g r o u n d Type[90]   F o r e g r o u n d Type[91]   F o r e g r o u n d Type[92]   F o r e g r o u n d Type[93]   F o r e g r o u n d Type[9]   F o r e g r o u n d VolumeSerialNumber[0]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[10]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[11]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[12]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[13]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[14]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[15]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[16]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[17]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[18]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[19]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[1]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[20]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[21]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[22]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[23]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[24]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[25]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[26]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[27]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[28]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[29]    VolumeSerialNumber[2]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[30]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[31]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[32]    VolumeSerialNumber[33]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[34]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[35]    VolumeSerialNumber[36]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[37]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[38]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[39]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[3]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[40]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[41]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[42]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[43]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[44]    VolumeSerialNumber[45]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[46]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[47]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[48]    VolumeSerialNumber[49]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[4]    VolumeSerialNumber[50]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[51]    VolumeSerialNumber[52]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[53]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[54]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[55]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[56]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[57]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[58]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[59]    VolumeSerialNumber[5]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[60]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[61]    VolumeSerialNumber[62]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[63]    VolumeSerialNumber[64]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[65]    VolumeSerialNumber[66]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[67]    VolumeSerialNumber[68]    VolumeSerialNumber[69]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[6]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[70]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[71]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[72]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[73]    VolumeSerialNumber[74]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[75]    VolumeSerialNumber[76]    VolumeSerialNumber[77]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[78]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[79]    VolumeSerialNumber[7]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[80]    VolumeSerialNumber[81]    VolumeSerialNumber[82]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[83]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[84]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[85]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[86]    VolumeSerialNumber[87]    VolumeSerialNumber[88]    VolumeSerialNumber[89]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[8]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[90]    VolumeSerialNumber[91]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[92]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[93]   1 4 8 1 5 3 3 8 7 VolumeSerialNumber[9]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        40, 
-                                    38, 
-                                    95
-                                ], 
-                                [
-                                    61, 
-                                    28, 
-                                    65, 
-                                    64
-                                ], 
-                                [
-                                    95, 
-                                    38, 
-                                    29, 
-                                    94
-                                ], 
-                                [
-                                    29, 
-                                    38, 
-                                    51, 
-                                    27
-                                ], 
-                                [
-                                    38, 
-                                    40, 
-                                    52, 
-                                    51
-                                ], 
-                                [
-                                    40, 
-                                    96, 
-                                    97, 
-                                    41
-                                ], 
-                                [
-                                    41, 
-                                    97, 
-                                    98, 
-                                    42
-                                ], 
-                                [
-                                    63, 
-                                    30, 
-                                    61, 
-                                    64
-                                ], 
-                                [
-                                    110, 
-                                    30, 
-                                    63, 
-                                    109
-                                ], 
-                                [
-                                    50, 
-                                    56, 
-                                    46, 
-                                    36
-                                ], 
-                                [
-                                    46, 
-                                    56, 
-                                    49, 
-                                    35
-                                ], 
-                                [
-                                    47, 
-                                    48, 
-                                    36, 
-                                    46
-                                ], 
-                                [
-                                    47, 
-                                    46, 
-                                    35, 
-                                    60
-                                ], 
-                                [
-                                    108, 
-                                    48, 
-                                    47, 
-                                    107
-                                ], 
-                                [
-                                    47, 
-                                    60, 
-                                    106, 
-                                    107
-                                ], 
-                                [
-                                    102, 
-                                    103, 
-                                    104, 
-                                    45
-                                ], 
-                                [
-                                    60, 
-                                    35, 
-                                    37, 
-                                    59
-                                ], 
-                                [
-                                    60, 
-                                    59, 
-                                    105, 
-                                    106
-                                ], 
-                                [
-                                    77, 
-                                    78, 
-                                    58, 
-                                    54
-                                ], 
-                                [
-                                    105, 
-                                    59, 
-                                    45, 
-                                    104
-                                ], 
-                                [
-                                    54, 
-                                    37, 
-                                    35, 
-                                    49
-                                ], 
-                                [
-                                    54, 
-                                    58, 
-                                    44, 
-                                    37
-                                ], 
-                                [
-                                    43, 
-                                    42, 
-                                    98, 
-                                    99
-                                ], 
-                                [
-                                    39, 
-                                    43, 
-                                    99, 
-                                    100
-                                ], 
-                                [
-                                    44, 
-                                    101, 
-                                    102, 
-                                    45
-                                ], 
-                                [
-                                    101, 
-                                    44, 
-                                    39, 
-                                    100
-                                ], 
-                                [
-                                    45, 
-                                    59, 
-                                    37, 
-                                    44
-                                ], 
-                                [
-                                    58, 
-                                    62, 
-                                    39, 
-                                    44
-                                ], 
-                                [
-                                    62, 
-                                    58, 
-                                    78, 
-                                    79
-                                ], 
-                                [
-                                    79, 
-                                    80, 
-                                    57, 
-                                    62
-                                ], 
-                                [
-                                    62, 
-                                    57, 
-                                    43, 
-                                    39
-                                ], 
-                                [
-                                    52, 
-                                    40, 
-                                    41, 
-                                    53
-                                ], 
-                                [
-                                    42, 
-                                    55, 
-                                    53, 
-                                    41
-                                ], 
-                                [
-                                    53, 
-                                    55, 
-                                    81, 
-                                    82
-                                ], 
-                                [
-                                    57, 
-                                    55, 
-                                    42, 
-                                    43
-                                ], 
-                                [
-                                    80, 
-                                    81, 
-                                    55, 
-                                    57
-                                ], 
-                                [
-                                    27, 
-                                    51, 
-                                    84, 
-                                    85
-                                ], 
-                                [
-                                    51, 
-                                    52, 
-                                    83, 
-                                    84
-                                ], 
-                                [
-                                    82, 
-                                    83, 
-                                    52, 
-                                    53
-                                ], 
-                                [
-                                    56, 
-                                    75, 
-                                    76, 
-                                    49
-                                ], 
-                                [
-                                    77, 
-                                    54, 
-                                    49, 
-                                    76
-                                ], 
-                                [
-                                    63, 
-                                    48, 
-                                    108, 
-                                    109
-                                ], 
-                                [
-                                    48, 
-                                    63, 
-                                    64, 
-                                    36
-                                ], 
-                                [
-                                    65, 
-                                    50, 
-                                    36, 
-                                    64
-                                ], 
-                                [
-                                    28, 
-                                    72, 
-                                    73, 
-                                    65
-                                ], 
-                                [
-                                    50, 
-                                    74, 
-                                    75, 
-                                    56
-                                ], 
-                                [
-                                    65, 
-                                    73, 
-                                    74, 
-                                    50
-                                ]
-                            ], 
-                            "assigned_uvs": [
-                                [
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0, 
-                                    0
-                                ], 
-                                []
-                            ]
-                        }, 
-                        "type": "mesh", 
-                        "name": "neck_01_M_CUTMESHShapeOrig"
-                    }
-                }
-            }
-        }
-    ]
-}
